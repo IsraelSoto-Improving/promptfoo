@@ -1,0 +1,149 @@
+# yaml-language-server: $schema=https://promptfoo.dev/config-schema.json
+description: "Weekly Jira Summary - Stage 3 EDD evaluation"
+
+# Define prompts to test - template that includes base prompt
+prompts:
+  - file://stage-3-prompt.md
+
+# External evaluation script for custom deterministic evaluations
+# This script contains custom assertion functions used in tests
+defaultTest:
+  options:
+    # ========================================
+    # RUBRIC GRADER — NODE.JS (Cross-platform)
+    # ========================================
+    # Combined scripts auto-detect mode: provider vs grader
+    # Grader mode: prompt is JSON array [{role, content}, ...]
+    # Provider mode: prompt is plain text
+    # SPECIFY the Provider by the Label from the providers section.
+    #
+    # Devin CLI grader — ACTIVE
+    # provider: 'Devin SWE-1.7'
+    provider: 'Devin Sonnet 5.5 Medium'
+
+providers:
+  # ========================================
+  # NODE.JS VERSIONS (Cross-platform)
+  # ========================================
+  # Combined scripts auto-detect mode: provider vs grader
+  # Grader mode: prompt is JSON array [{role, content}, ...]
+  # Provider mode: prompt is plain text
+  #
+  # Devin CLI provider
+  # - id: 'exec: node ./devin.js'
+  #   label: 'Devin SWE-1.7'
+  #   config:
+  #     model: 'SWE-1.7'
+
+  - id: 'exec: node ./devin.js'
+    label: 'Devin Sonnet 5.5 Medium'
+    config:
+      model: 'claude-sonnet-5-5-medium'
+
+# Test cases with different evaluation types
+tests:
+  # ========================================
+  # DETERMINISTIC EVALUATIONS (contains/equiv)
+  # ========================================
+  - description: 'Jira weekly summary - Busy week structure validation'
+    vars:
+      jira_data: file://fixtures/busy_week_fixture.json
+    assert:
+      - type: contains
+        value: "## ✨ Highlights"
+      - type: contains
+        value: "## 🎯 Accomplished"
+      - type: contains
+        value: "## 📅 Planned Activities"
+
+  # ========================================
+  # RUBRIC-BASED EVALUATIONS WITH SCORING
+  # ========================================
+  # Each llm-rubric assertion evaluates a single quality dimension independently.
+  # - threshold: minimum score (0.0–1.0) required to pass this assertion
+  # - metric:    named label shown in the promptfoo web UI results table
+  # - weight:    relative importance when computing the overall test score
+  #
+  # This lets you see per-dimension scores, set different pass bars for
+  # critical vs. nice-to-have criteria, and weight what matters most.
+
+  - description: "Busy week: mix of closed/resolved and still-open items"
+    vars:
+      jira_data: file://fixtures/busy_week_fixture.json
+    assert:
+      - type: llm-rubric
+        value: >
+          The Accomplished section lists items that are Closed or Resolved
+          (e.g. PROJ-110 through PROJ-122), and does NOT claim PROJ-101
+          (In Progress), PROJ-103 or PROJ-104 (Open) as accomplished.
+        threshold: 0.8
+        metric: accomplished_accuracy
+        weight: 2
+      - type: javascript
+        value: "output.length < 2500"
+ 
+  - description: "Quiet week: only 4 items, all resolved - no padding"
+    vars:
+      jira_data: file://fixtures/quiet_week_fixture.json
+    assert:
+      - type: llm-rubric
+        value: >
+          The summary accurately reflects that only a small number of items
+          (PROJ-201 through PROJ-204) were touched this week, without
+          inventing additional accomplishments or inflating the week to seem
+          more productive than it was.
+        threshold: 0.8
+        metric: no_padding
+        weight: 1
+ 
+  - description: "Blocked week: must surface the blocked ticket and unassigned critical bugs"
+    vars:
+      jira_data: file://fixtures/blocked_week_fixture.json
+    assert:
+      - type: llm-rubric
+        value: >
+          The summary explicitly calls out PROJ-374 as blocked (blocked by
+          a firmware incompatibility), and flags the unassigned critical
+          bugs PROJ-388 and PROJ-389 as open risks rather than silently
+          omitting them or listing them as accomplished.
+        threshold: 0.8
+        metric: risk_surfacing
+        weight: 2
+
+  # ========================================
+  # SCRIPT-BASED DETERMINISTIC EVALUATIONS
+  # ========================================
+  # These evaluations call functions exported from eval-script.js directly.
+  # Syntax: file://path/to/script.js:functionName
+
+  # - description: 'Email validation - script-based eval'
+  #   vars:
+  #     request: 'Output a function to validate an email address'
+  #   assert:
+  #     - type: javascript
+  #       value: file://eval-script.js:hasCodeFormatting
+  #     - type: javascript
+  #       value: file://eval-script.js:explainsWhy
+  #     - type: javascript
+  #       value: file://eval-script.js:mentionsBestPractices
+
+  # - description: 'Equality operators - script-based eval'
+  #   vars:
+  #     request: 'Explain the difference between == and === in JavaScript'
+  #   assert:
+  #     - type: javascript
+  #       value: file://eval-script.js:hasCodeFormatting
+  #     - type: javascript
+  #       value: file://eval-script.js:explainsWhy
+  #     - type: javascript
+  #       value: file://eval-script.js:isConcise
+
+  # ========================================
+  # You can Create Test Suites in separate files, using all the same features as the main config
+  # Especially useful for large Suites. 
+  # Keep in mind that the file path is relative to the main config file.
+  # ========================================
+  # - file://fileBased.testSuite.yaml
+  # - file://matchSchema.testSuite.yaml
+# Output configuration
+outputPath: results.html
