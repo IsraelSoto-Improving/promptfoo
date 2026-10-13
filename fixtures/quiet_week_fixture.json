@@ -1,0 +1,65 @@
+{
+  "period": "2026-08-17 to 2026-08-21",
+  "issues": [
+    {
+      "key": "PROJ-201",
+      "summary": "Release mobile app pipeline for iOS and Android build v146",
+      "type": "Story",
+      "status": "Resolved",
+      "priority": "Untriaged",
+      "assignee": "Developer G",
+      "updated": "2026-08-19T10:27:02.260-0700",
+      "changelog": [
+        {"field": "Sprint", "from": "", "to": "Sprint 94", "author": "Developer G", "date": "2026-08-18T19:03:07.837Z"},
+        {"field": "status", "from": "Open", "to": "In Progress", "author": "Developer G", "date": "2026-08-18T19:03:12.556Z"},
+        {"field": "resolution", "from": null, "to": "Done", "author": "Developer B", "date": "2026-08-19T17:27:02.260Z"},
+        {"field": "status", "from": "In Progress", "to": "Resolved", "author": "Developer B", "date": "2026-08-19T17:27:02.260Z"}
+      ]
+    },
+    {
+      "key": "PROJ-202",
+      "summary": "Update build script to generate manifest file for new product variant",
+      "type": "Story",
+      "status": "Resolved",
+      "priority": "Untriaged",
+      "assignee": "Developer G",
+      "updated": "2026-08-19T10:26:59.780-0700",
+      "changelog": [
+        {"field": "Sprint", "from": "", "to": "Sprint 94", "author": "Developer G", "date": "2026-08-19T17:17:42.695Z"},
+        {"field": "status", "from": "Open", "to": "In Progress", "author": "Developer G", "date": "2026-08-19T17:17:47.171Z"},
+        {"field": "resolution", "from": null, "to": "Done", "author": "Developer B", "date": "2026-08-19T17:26:59.780Z"},
+        {"field": "status", "from": "In Progress", "to": "Resolved", "author": "Developer B", "date": "2026-08-19T17:26:59.780Z"}
+      ]
+    },
+    {
+      "key": "PROJ-203",
+      "summary": "Unable to establish Bluetooth connection to wireless controller accessory",
+      "type": "Bug",
+      "status": "Closed",
+      "priority": "Blocker",
+      "assignee": "QA Lead",
+      "updated": "2026-08-19T10:05:02.118-0700",
+      "changelog": [
+        {"field": "assignee", "from": "Developer B", "to": "Developer C", "author": "Developer C", "date": "2026-08-18T21:30:08.104Z"},
+        {"field": "Attachment", "from": null, "to": "diagnostic-photos (3 files)", "author": "Developer C", "date": "2026-08-18T21:31:36.395Z"},
+        {"field": "assignee", "from": "Developer C", "to": "QA Lead", "author": "Developer C", "date": "2026-08-18T21:31:38.276Z"},
+        {"field": "resolution", "from": null, "to": "Done", "author": "QA Lead", "date": "2026-08-19T17:05:02.118Z"},
+        {"field": "status", "from": "QA", "to": "Closed", "author": "QA Lead", "date": "2026-08-19T17:05:02.118Z"}
+      ]
+    },
+    {
+      "key": "PROJ-204",
+      "summary": "Implement firmware version display page in companion app",
+      "type": "Sub-task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Developer B",
+      "updated": "2026-08-17T12:09:06.148-0700",
+      "changelog": [
+        {"field": "Fix Version", "from": null, "to": "v27", "author": "Developer B", "date": "2026-08-17T19:05:15.162Z"},
+        {"field": "resolution", "from": null, "to": "Done", "author": "Developer B", "date": "2026-08-17T19:09:06.148Z"},
+        {"field": "status", "from": "In Progress", "to": "Resolved", "author": "Developer B", "date": "2026-08-17T19:09:06.148Z"}
+      ]
+    }
+  ]
+}

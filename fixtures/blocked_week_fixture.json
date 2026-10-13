@@ -1,0 +1,987 @@
+{
+  "period": "2026-09-28 to 2026-10-02",
+  "issues": [
+    {
+      "key": "PROJ-301",
+      "summary": "iOS app unable to resume OTA after canceling firmware update process",
+      "type": "Bug",
+      "status": "Closed",
+      "priority": "Blocker",
+      "assignee": "Developer C",
+      "updated": "2026-10-02T14:32:28.520-0700",
+      "changelog": [
+        {"field": "assignee", "from": null, "to": "Developer B", "author": "Developer B", "date": "2026-10-01T16:43:42.865Z"},
+        {"field": "Sprint", "from": "", "to": "Sprint 94", "author": "Developer B", "date": "2026-10-01T16:43:46.580Z"},
+        {"field": "status", "from": "Open", "to": "In Progress", "author": "Developer B", "date": "2026-10-01T16:43:59.257Z"},
+        {"field": "Link", "from": null, "to": "PROJ-302", "author": "Developer B", "date": "2026-10-01T16:57:18.515Z"},
+        {"field": "Fix Version", "from": null, "to": "v27", "author": "Developer B", "date": "2026-10-01T16:57:24.745Z"},
+        {"field": "status", "from": "In Progress", "to": "QA", "author": "Developer B", "date": "2026-10-01T17:05:54.401Z"},
+        {"field": "assignee", "from": "Developer B", "to": "Developer C", "author": "Developer B", "date": "2026-10-01T23:45:01.882Z"},
+        {"field": "labels", "from": "", "to": "6.27.0-148", "author": "Developer B", "date": "2026-10-01T23:45:08.520Z"},
+        {"field": "Attachment", "from": null, "to": "qa-verification-video1.mp4", "author": "Developer C", "date": "2026-10-02T21:32:25.429Z"},
+        {"field": "Attachment", "from": null, "to": "qa-verification-video2.mp4", "author": "Developer C", "date": "2026-10-02T21:32:25.429Z"},
+        {"field": "resolution", "from": null, "to": "Done", "author": "Developer C", "date": "2026-10-02T21:32:28.520Z"},
+        {"field": "status", "from": "QA", "to": "Closed", "author": "Developer C", "date": "2026-10-02T21:32:28.520Z"}
+      ]
+    },
+    {
+      "key": "PROJ-302",
+      "summary": "iOS app OTA firmware transfer fails at 50% on wireless controller",
+      "type": "Bug",
+      "status": "Closed",
+      "priority": "Blocker",
+      "assignee": "Developer C",
+      "updated": "2026-10-02T14:31:03.645-0700",
+      "changelog": [
+        {"field": "status", "from": "Open", "to": "In Progress", "author": "Developer B", "date": "2026-09-30T22:03:02.955Z"},
+        {"field": "Link", "from": null, "to": "PROJ-301", "author": "Developer B", "date": "2026-10-01T16:57:18.436Z"},
+        {"field": "Fix Version", "from": null, "to": "v27", "author": "Developer B", "date": "2026-10-01T16:57:32.802Z"},
+        {"field": "summary", "from": "iOS app OTA transfer fails at 50% (product variant A)", "to": "iOS app OTA transfer fails at 50% (product variant B)", "author": "Developer B", "date": "2026-10-01T17:02:13.975Z"},
+        {"field": "status", "from": "In Progress", "to": "QA", "author": "Developer B", "date": "2026-10-01T17:03:18.370Z"},
+        {"field": "assignee", "from": "Developer B", "to": "Developer C", "author": "Developer B", "date": "2026-10-01T23:45:33.246Z"},
+        {"field": "labels", "from": "", "to": "6.27.0-148", "author": "Developer B", "date": "2026-10-01T23:45:40.179Z"},
+        {"field": "Attachment", "from": null, "to": "qa-verification-video.mp4", "author": "Developer C", "date": "2026-10-02T21:30:42.665Z"},
+        {"field": "resolution", "from": null, "to": "Done", "author": "Developer C", "date": "2026-10-02T21:31:03.645Z"},
+        {"field": "status", "from": "QA", "to": "Closed", "author": "Developer C", "date": "2026-10-02T21:31:03.645Z"}
+      ]
+    },
+    {
+      "key": "PROJ-303",
+      "summary": "iOS app cancel button non-functional during OTA firmware update",
+      "type": "Bug",
+      "status": "Closed",
+      "priority": "Blocker",
+      "assignee": "Developer C",
+      "updated": "2026-10-02T13:36:10.785-0700",
+      "changelog": [
+        {"field": "Version", "from": null, "to": "v27", "author": "QA Lead", "date": "2026-09-29T15:39:32.099Z"},
+        {"field": "OS", "from": null, "to": "iOS", "author": "QA Lead", "date": "2026-09-29T15:39:47.662Z"},
+        {"field": "description", "from": null, "to": "(bug report with screen recording)", "author": "QA Lead", "date": "2026-09-29T15:39:58.529Z"},
+        {"field": "Attachment", "from": null, "to": "screen-recording.mp4", "author": "QA Lead", "date": "2026-09-29T15:39:58.989Z"},
+        {"field": "priority", "from": "Untriaged", "to": "Blocker", "author": "Developer B", "date": "2026-09-29T17:16:28.431Z"},
+        {"field": "assignee", "from": null, "to": "Developer B", "author": "Developer B", "date": "2026-09-29T17:16:38.676Z"},
+        {"field": "Sprint", "from": "", "to": "Sprint 94", "author": "Developer B", "date": "2026-09-29T17:16:41.606Z"},
+        {"field": "assignee", "from": "Developer B", "to": "Developer A", "author": "Developer B", "date": "2026-09-30T15:20:15.133Z"},
+        {"field": "description", "from": "(initial report)", "to": "(added crash log link)", "author": "QA Lead", "date": "2026-09-30T15:37:54.689Z"},
+        {"field": "Attachment", "from": null, "to": "code-screenshot.png", "author": "Developer A", "date": "2026-09-30T16:53:55.044Z"},
+        {"field": "assignee", "from": "Developer A", "to": "Developer B", "author": "Developer A", "date": "2026-09-30T16:54:05.536Z"},
+        {"field": "status", "from": "Open", "to": "In Progress", "author": "Developer B", "date": "2026-09-30T22:03:20.597Z"},
+        {"field": "status", "from": "In Progress", "to": "QA", "author": "Developer B", "date": "2026-09-30T22:24:25.414Z"},
+        {"field": "assignee", "from": "Developer B", "to": "Developer C", "author": "Developer B", "date": "2026-10-01T23:44:29.863Z"},
+        {"field": "labels", "from": "", "to": "6.27.0-148", "author": "Developer B", "date": "2026-10-01T23:44:42.470Z"},
+        {"field": "Attachment", "from": null, "to": "qa-verification-videos (4 files)", "author": "Developer C", "date": "2026-10-02T20:35:50.313Z"},
+        {"field": "resolution", "from": null, "to": "Done", "author": "Developer C", "date": "2026-10-02T20:36:10.785Z"},
+        {"field": "status", "from": "QA", "to": "Closed", "author": "Developer C", "date": "2026-10-02T20:36:10.785Z"}
+      ]
+    },
+    {
+      "key": "PROJ-304",
+      "summary": "Mic monitor setting not persisted after app restart on earbuds",
+      "type": "Bug",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-02T12:07:17.477-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-305",
+      "summary": "Implement find-my-earbuds animation control",
+      "type": "Sub-task",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer B",
+      "updated": "2026-10-02T11:55:24.472-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-306",
+      "summary": "Update OTA transmitter icon to match physical hardware design",
+      "type": "Story",
+      "status": "Open",
+      "priority": "Minor",
+      "assignee": null,
+      "updated": "2026-10-02T11:55:23.120-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-307",
+      "summary": "iOS app unable to resume OTA after WiFi disconnection during transfer",
+      "type": "Bug",
+      "status": "In Progress",
+      "priority": "Critical",
+      "assignee": "Developer F",
+      "updated": "2026-10-02T11:53:57.347-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-308",
+      "summary": "App crashes when WiFi is disconnected during active session",
+      "type": "Bug",
+      "status": "QA",
+      "priority": "Critical",
+      "assignee": "Developer C",
+      "updated": "2026-10-02T11:53:57.304-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-309",
+      "summary": "Firmware update fails for charging base accessory",
+      "type": "Bug",
+      "status": "Open",
+      "priority": "Blocker",
+      "assignee": "QA Lead",
+      "updated": "2026-10-02T11:53:32.267-0700",
+      "changelog": [
+        {"field": "assignee", "from": "Developer D", "to": "QA Lead", "author": "Developer B", "date": "2026-10-01T20:42:09.166Z"},
+        {"field": "Link", "from": null, "to": "PROJ-307", "author": "Developer B", "date": "2026-10-02T17:17:17.826Z"},
+        {"field": "Link", "from": "PROJ-307", "to": null, "author": "Developer B", "date": "2026-10-02T18:53:32.267Z"}
+      ]
+    },
+    {
+      "key": "PROJ-310",
+      "summary": "Update OTA transmitter icon for secondary product line",
+      "type": "Task",
+      "status": "Open",
+      "priority": "Minor",
+      "assignee": "Developer E",
+      "updated": "2026-10-02T11:49:36.898-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-311",
+      "summary": "Implement custom 10-band EQ presets state management",
+      "type": "Sub-task",
+      "status": "In Progress",
+      "priority": "Untriaged",
+      "assignee": "Developer B",
+      "updated": "2026-10-02T11:47:06.046-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-312",
+      "summary": "Implement find-my-earbuds warning screen",
+      "type": "Sub-task",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer B",
+      "updated": "2026-10-02T11:41:39.253-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-313",
+      "summary": "Implement find-my-earbuds left/right play controls on Find tab",
+      "type": "Sub-task",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer B",
+      "updated": "2026-10-02T11:39:34.954-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-314",
+      "summary": "Implement 8-band EQ state management",
+      "type": "Sub-task",
+      "status": "In Progress",
+      "priority": "Untriaged",
+      "assignee": "Developer B",
+      "updated": "2026-10-02T11:33:28.523-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-315",
+      "summary": "Implement custom EQ presets core settings integration",
+      "type": "Sub-task",
+      "status": "In Progress",
+      "priority": "Normal",
+      "assignee": "Developer B",
+      "updated": "2026-10-02T11:33:25.438-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-316",
+      "summary": "Implement custom EQ presets feature for earbuds",
+      "type": "Story",
+      "status": "In Progress",
+      "priority": "Normal",
+      "assignee": "Developer B",
+      "updated": "2026-10-02T11:33:18.311-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-317",
+      "summary": "Implement listening mode feature for earbuds",
+      "type": "Story",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-02T10:55:43.389-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-318",
+      "summary": "Bluetooth connection lost at 50% during firmware update on specific Android device",
+      "type": "Bug",
+      "status": "In Progress",
+      "priority": "Blocker",
+      "assignee": "Developer C",
+      "updated": "2026-10-02T10:55:41.461-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-319",
+      "summary": "QA re-testing bug fixes and new feature implementations",
+      "type": "Task",
+      "status": "In Progress",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-02T10:55:35.336-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-320",
+      "summary": "QA sanity testing Android build 147 release",
+      "type": "Task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-02T10:53:48.417-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-321",
+      "summary": "Release iOS and Android pipeline build 148",
+      "type": "Story",
+      "status": "Open",
+      "priority": "Normal",
+      "assignee": "Developer G",
+      "updated": "2026-10-02T09:50:27.018-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-322",
+      "summary": "Implement wearing sensor toggle on Customize tab",
+      "type": "Sub-task",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-02T09:29:03.215-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-323",
+      "summary": "Android app gets stuck on loading screen for earbuds",
+      "type": "Bug",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-02T09:28:57.665-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-324",
+      "summary": "Implement prompt tone feature for earbuds",
+      "type": "Story",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-02T09:28:19.478-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-325",
+      "summary": "Implement wearing sensor detection feature for earbuds",
+      "type": "Story",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-02T09:28:19.440-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-326",
+      "summary": "Implement prompt tone options UI on settings area",
+      "type": "Sub-task",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-02T09:28:19.355-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-327",
+      "summary": "Design mute toggle UI with help popup for physical button activation",
+      "type": "Task",
+      "status": "In Progress",
+      "priority": "Normal",
+      "assignee": "Designer",
+      "updated": "2026-10-02T09:21:26.755-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-328",
+      "summary": "Implement wearing sensor core settings persistence",
+      "type": "Sub-task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Developer B",
+      "updated": "2026-10-02T08:59:11.295-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-329",
+      "summary": "Implement wearing sensor state management in view model",
+      "type": "Sub-task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Developer B",
+      "updated": "2026-10-02T08:41:02.602-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-330",
+      "summary": "Implement wearing sensor race condition handling command",
+      "type": "Sub-task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Developer A",
+      "updated": "2026-10-02T08:40:51.715-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-331",
+      "summary": "Implement prompt tone core settings integration",
+      "type": "Sub-task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Developer B",
+      "updated": "2026-10-02T08:14:11.061-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-332",
+      "summary": "Implement prompt tone selection state management",
+      "type": "Sub-task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Developer B",
+      "updated": "2026-10-02T08:13:41.048-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-333",
+      "summary": "Implement read prompt tone Bluetooth command",
+      "type": "Sub-task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Developer B",
+      "updated": "2026-10-02T08:13:26.379-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-334",
+      "summary": "Implement set prompt tone Bluetooth command",
+      "type": "Sub-task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Developer B",
+      "updated": "2026-10-02T08:13:12.155-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-335",
+      "summary": "Move custom EQ upload workflow from loading to connected state",
+      "type": "Sub-task",
+      "status": "In Progress",
+      "priority": "Normal",
+      "assignee": "Developer A",
+      "updated": "2026-10-02T07:43:00.581-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-336",
+      "summary": "Add mock EQ settings task for development testing",
+      "type": "Sub-task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Developer B",
+      "updated": "2026-10-02T07:16:29.655-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-337",
+      "summary": "Implement mic monitoring option on Playback tab",
+      "type": "Sub-task",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-01T16:49:02.925-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-338",
+      "summary": "Incorrect device icon shown in loading spinner on retry",
+      "type": "Bug",
+      "status": "QA",
+      "priority": "Minor",
+      "assignee": "Developer C",
+      "updated": "2026-10-01T16:49:02.848-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-339",
+      "summary": "Implement custom EQ presets section on Playback tab",
+      "type": "Sub-task",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-01T16:49:02.834-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-340",
+      "summary": "Implement device connecting state feature",
+      "type": "Story",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-01T16:49:02.816-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-341",
+      "summary": "Add iOS task for performing OTA on earbuds",
+      "type": "Sub-task",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-01T16:49:02.784-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-342",
+      "summary": "Add support to cancel firmware update process",
+      "type": "Sub-task",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-01T16:49:02.778-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-343",
+      "summary": "Implement basic EQ presets feature for earbuds",
+      "type": "Story",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-01T16:49:02.765-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-344",
+      "summary": "Localization string missing for power controls label",
+      "type": "Bug",
+      "status": "QA",
+      "priority": "Minor",
+      "assignee": "Developer C",
+      "updated": "2026-10-01T16:49:02.761-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-345",
+      "summary": "Implement available devices screen for earbuds",
+      "type": "Story",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-01T16:49:02.752-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-346",
+      "summary": "Implement firmware update error screen",
+      "type": "Sub-task",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-01T16:49:02.744-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-347",
+      "summary": "Implement home navigation tabs for earbuds",
+      "type": "Story",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-01T16:49:02.739-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-348",
+      "summary": "Implement firmware version page core logic",
+      "type": "Sub-task",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-01T16:49:02.725-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-349",
+      "summary": "Implement header component for earbuds",
+      "type": "Task",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-01T16:49:02.725-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-350",
+      "summary": "Implement settings tab for earbuds",
+      "type": "Task",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-01T16:49:02.718-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-351",
+      "summary": "Establish BLE connection configuration for earbuds",
+      "type": "Sub-task",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-01T16:49:02.710-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-352",
+      "summary": "Add basic earbud product support into companion app",
+      "type": "Sub-task",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-01T16:49:02.695-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-353",
+      "summary": "Implement basic EQ presets section on Playback tab",
+      "type": "Sub-task",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-01T16:49:02.682-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-354",
+      "summary": "Implement firmware version page feature for earbuds",
+      "type": "Story",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-01T16:49:02.676-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-355",
+      "summary": "Implement device connection failure screen",
+      "type": "Sub-task",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-01T16:49:02.662-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-356",
+      "summary": "Implement mic monitoring feature for earbuds",
+      "type": "Story",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-01T16:49:02.657-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-357",
+      "summary": "Add Android support for dongle OTA update",
+      "type": "Sub-task",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-01T16:49:02.653-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-358",
+      "summary": "Add Android task for performing OTA on earbuds",
+      "type": "Sub-task",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-01T16:49:02.644-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-359",
+      "summary": "Add core support for dongle OTA update",
+      "type": "Sub-task",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-01T16:49:02.642-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-360",
+      "summary": "Implement available devices feature for earbuds",
+      "type": "Story",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-01T16:49:02.638-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-361",
+      "summary": "Ambient mode control labels should use uppercase styling",
+      "type": "Bug",
+      "status": "QA",
+      "priority": "Minor",
+      "assignee": "Developer C",
+      "updated": "2026-10-01T16:49:02.617-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-362",
+      "summary": "Implement firmware update feature for earbuds",
+      "type": "Story",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-01T16:49:02.616-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-363",
+      "summary": "Implement custom 10-band EQ preset editor UI",
+      "type": "Sub-task",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-01T16:47:25.201-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-364",
+      "summary": "Add no-battery icon support for OTA validations and process",
+      "type": "Sub-task",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-01T16:47:08.796-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-365",
+      "summary": "Implement game and chat mix balance slider",
+      "type": "Sub-task",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-01T16:46:54.788-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-366",
+      "summary": "Update custom EQ screen to new 8-band preset layout",
+      "type": "Task",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-01T16:46:39.784-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-367",
+      "summary": "OTA screen icons have wrong styling and animation",
+      "type": "Bug",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-01T16:46:27.166-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-368",
+      "summary": "Listening mode controller height needs adjustment in UI",
+      "type": "Bug",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-10-01T16:46:11.068-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-369",
+      "summary": "App crashes when tapping cancel during firmware update",
+      "type": "Bug",
+      "status": "QA",
+      "priority": "Blocker",
+      "assignee": "Developer C",
+      "updated": "2026-10-01T16:45:22.572-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-370",
+      "summary": "Implement mic monitoring state management in view model",
+      "type": "Sub-task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Developer B",
+      "updated": "2026-10-01T16:38:13.392-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-371",
+      "summary": "Implement mic monitoring core settings integration",
+      "type": "Sub-task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Developer B",
+      "updated": "2026-10-01T16:38:10.740-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-372",
+      "summary": "Implement mic monitoring race condition handling command",
+      "type": "Sub-task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Developer A",
+      "updated": "2026-10-01T16:05:19.135-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-373",
+      "summary": "Right earbud physical button functions do not trigger app UI changes",
+      "type": "Bug",
+      "status": "Open",
+      "priority": "Blocker",
+      "assignee": "Developer B",
+      "updated": "2026-10-01T15:08:01.046-0700",
+      "changelog": [
+        {"field": "description", "from": null, "to": "(bug report with video recording)", "author": "QA Lead", "date": "2026-09-29T22:01:51.950Z"},
+        {"field": "Attachment", "from": null, "to": "bug-recording.mov", "author": "QA Lead", "date": "2026-09-29T22:01:52.447Z"},
+        {"field": "Version", "from": null, "to": "v27", "author": "QA Lead", "date": "2026-09-29T22:01:58.387Z"},
+        {"field": "OS", "from": null, "to": "Android,iOS", "author": "QA Lead", "date": "2026-09-29T22:02:09.697Z"},
+        {"field": "priority", "from": "Untriaged", "to": "Blocker", "author": "Developer B", "date": "2026-09-30T17:23:27.534Z"},
+        {"field": "assignee", "from": null, "to": "Developer E", "author": "Developer B", "date": "2026-09-30T17:24:03.178Z"},
+        {"field": "Sprint", "from": "", "to": "Sprint 94", "author": "Developer B", "date": "2026-09-30T17:24:08.497Z"},
+        {"field": "status", "from": "Open", "to": "In Progress", "author": "Developer E", "date": "2026-10-01T14:34:19.313Z"},
+        {"field": "Attachment", "from": null, "to": "investigation-log.txt", "author": "Developer E", "date": "2026-10-01T19:26:22.817Z"},
+        {"field": "assignee", "from": "Developer E", "to": "Developer B", "author": "Developer E", "date": "2026-10-01T19:26:28.594Z"},
+        {"field": "status", "from": "In Progress", "to": "Open", "author": "Developer B", "date": "2026-10-01T22:08:01.046Z"}
+      ]
+    },
+    {
+      "key": "PROJ-374",
+      "summary": "Unable to complete OTA update for earbuds — blocked by firmware incompatibility",
+      "type": "Bug",
+      "status": "Blocked",
+      "priority": "Blocker",
+      "assignee": "Developer B",
+      "updated": "2026-10-01T15:07:21.697-0700",
+      "changelog": [
+        {"field": "issuetype", "from": "Task", "to": "Bug", "author": "QA Lead", "date": "2026-09-30T19:16:59.017Z"},
+        {"field": "Version", "from": null, "to": "v27", "author": "QA Lead", "date": "2026-09-30T19:33:29.121Z"},
+        {"field": "OS", "from": null, "to": "iOS", "author": "QA Lead", "date": "2026-09-30T19:33:34.868Z"},
+        {"field": "description", "from": null, "to": "(detailed bug report with screen recordings)", "author": "QA Lead", "date": "2026-09-30T19:37:35.765Z"},
+        {"field": "Attachment", "from": null, "to": "screen-recordings (2 files)", "author": "QA Lead", "date": "2026-09-30T19:37:36.640Z"},
+        {"field": "description", "from": "(initial report)", "to": "(added note: earbuds break at this point, can only recover by downgrading)", "author": "QA Lead", "date": "2026-09-30T19:42:50.245Z"},
+        {"field": "description", "from": "(report v2)", "to": "(Developer C added investigation notes)", "author": "Developer C", "date": "2026-09-30T19:53:07.235Z"},
+        {"field": "assignee", "from": null, "to": "Developer B", "author": "Developer B", "date": "2026-10-01T17:20:40.667Z"},
+        {"field": "priority", "from": "Untriaged", "to": "Blocker", "author": "Developer B", "date": "2026-10-01T17:20:43.778Z"},
+        {"field": "Sprint", "from": "", "to": "Sprint 94", "author": "Developer B", "date": "2026-10-01T17:20:56.126Z"},
+        {"field": "status", "from": "Open", "to": "In Progress", "author": "Developer B", "date": "2026-10-01T18:40:01.197Z"},
+        {"field": "status", "from": "In Progress", "to": "Blocked", "author": "Developer B", "date": "2026-10-01T22:07:21.697Z"}
+      ]
+    },
+    {
+      "key": "PROJ-375",
+      "summary": "QA sanity testing on earbuds companion app",
+      "type": "Task",
+      "status": "Closed",
+      "priority": "Untriaged",
+      "assignee": "Developer D",
+      "updated": "2026-10-01T13:42:13.388-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-376",
+      "summary": "Implement iOS 8-band parametric EQ algorithm",
+      "type": "Sub-task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Developer B",
+      "updated": "2026-09-30T14:49:51.719-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-377",
+      "summary": "Implement basic EQ presets core settings integration",
+      "type": "Sub-task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Developer B",
+      "updated": "2026-09-30T12:34:02.659-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-378",
+      "summary": "Implement basic EQ presets state management in view model",
+      "type": "Sub-task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Developer B",
+      "updated": "2026-09-30T12:34:00.226-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-379",
+      "summary": "Incorrect success message shown after updating transmitter only",
+      "type": "Bug",
+      "status": "Open",
+      "priority": "Blocker",
+      "assignee": "Developer B",
+      "updated": "2026-09-30T12:15:30.266-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-380",
+      "summary": "Implement wind noise reduction logic for earbuds",
+      "type": "Sub-task",
+      "status": "In Progress",
+      "priority": "Normal",
+      "assignee": "Developer E",
+      "updated": "2026-09-30T10:31:48.975-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-381",
+      "summary": "Transmitter not shown as pending update on firmware version screen",
+      "type": "Bug",
+      "status": "Open",
+      "priority": "Critical",
+      "assignee": "Developer B",
+      "updated": "2026-09-30T10:21:06.290-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-382",
+      "summary": "QA testing new implementations for earbuds build 147",
+      "type": "Task",
+      "status": "In Progress",
+      "priority": "Untriaged",
+      "assignee": "QA Lead",
+      "updated": "2026-09-30T09:58:10.911-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-383",
+      "summary": "QA sanity testing iOS build 147 release",
+      "type": "Task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA Lead",
+      "updated": "2026-09-30T09:58:08.202-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-384",
+      "summary": "Add module for saving custom EQ preset names on device",
+      "type": "Sub-task",
+      "status": "Code Review",
+      "priority": "Normal",
+      "assignee": "Developer B",
+      "updated": "2026-09-30T07:31:36.906-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-385",
+      "summary": "QA re-testing Android fixes and new implementations",
+      "type": "Task",
+      "status": "Resolved",
+      "priority": "Untriaged",
+      "assignee": "Developer D",
+      "updated": "2026-09-29T16:09:05.297-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-386",
+      "summary": "UX design for desktop companion app",
+      "type": "Task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Designer",
+      "updated": "2026-09-29T13:02:08.350-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-387",
+      "summary": "Header does not show earbuds charging state indicator",
+      "type": "Bug",
+      "status": "Open",
+      "priority": "Normal",
+      "assignee": "PM",
+      "updated": "2026-09-29T10:24:27.370-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-388",
+      "summary": "One earbud firmware info disappears after turning it off",
+      "type": "Bug",
+      "status": "Open",
+      "priority": "Critical",
+      "assignee": null,
+      "updated": "2026-09-29T10:21:25.748-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-389",
+      "summary": "App crashes when tapping factory reset option in settings",
+      "type": "Bug",
+      "status": "Open",
+      "priority": "Normal",
+      "assignee": null,
+      "updated": "2026-09-29T10:16:07.747-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-390",
+      "summary": "Implement earbuds header UI component",
+      "type": "Sub-task",
+      "status": "QA",
+      "priority": "Normal",
+      "assignee": "QA Lead",
+      "updated": "2026-09-28T14:55:47.913-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-391",
+      "summary": "Transmitter shown as connected when physically unplugged",
+      "type": "Bug",
+      "status": "Open",
+      "priority": "Untriaged",
+      "assignee": "Developer C",
+      "updated": "2026-09-28T09:33:12.855-0700",
+      "changelog": []
+    }
+  ]
+}

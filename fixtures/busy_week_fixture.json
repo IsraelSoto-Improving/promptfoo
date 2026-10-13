@@ -1,0 +1,317 @@
+{
+  "period": "2026-09-21 to 2026-09-25",
+  "issues": [
+    {
+      "key": "PROJ-101",
+      "summary": "Mobile app crashes on latest OS when compiled with latest IDE version",
+      "type": "Bug",
+      "status": "In Progress",
+      "priority": "Normal",
+      "assignee": "Developer A",
+      "updated": "2026-09-25T10:23:15.714-0700",
+      "changelog": [
+        {"field": "priority", "from": "Untriaged", "to": "Normal", "author": "Developer B", "date": "2026-09-25T17:23:15.714Z"}
+      ]
+    },
+    {
+      "key": "PROJ-102",
+      "summary": "OTA firmware download shows progress rollback during upgrade",
+      "type": "Bug",
+      "status": "QA",
+      "priority": "Minor",
+      "assignee": "QA Lead",
+      "updated": "2026-09-25T10:09:02.218-0700",
+      "changelog": [
+        {"field": "assignee", "from": "Developer C", "to": "QA Lead", "author": "Developer C", "date": "2026-09-25T17:09:02.218Z"}
+      ]
+    },
+    {
+      "key": "PROJ-103",
+      "summary": "Save and persist custom EQ preset names on connected devices",
+      "type": "Story",
+      "status": "Open",
+      "priority": "Normal",
+      "assignee": null,
+      "updated": "2026-09-24T10:34:07.744-0700",
+      "changelog": [
+        {"field": "labels", "from": "", "to": "Feature", "author": "PM", "date": "2026-09-24T17:34:07.744Z"}
+      ]
+    },
+    {
+      "key": "PROJ-104",
+      "summary": "Retry dialog shown indefinitely on app restart after connection error",
+      "type": "Bug",
+      "status": "Open",
+      "priority": "Normal",
+      "assignee": null,
+      "updated": "2026-09-24T10:19:12.890-0700",
+      "changelog": [
+        {"field": "summary", "from": "Retry dialog shown on product variant A app restart", "to": "Retry dialog shown on product variant B app restart", "author": "Developer C", "date": "2026-09-23T22:23:02.907Z"},
+        {"field": "priority", "from": "Untriaged", "to": "Normal", "author": "Developer B", "date": "2026-09-24T17:19:12.890Z"}
+      ]
+    },
+    {
+      "key": "PROJ-105",
+      "summary": "Implement listening mode off state with noise reduction disabled",
+      "type": "Sub-task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-09-23T14:53:47.294-0700",
+      "changelog": [
+        {"field": "Attachment", "from": null, "to": "qa-screenshot.png", "author": "QA Lead", "date": "2026-09-21T20:21:09.930Z"},
+        {"field": "assignee", "from": "QA Lead", "to": "Developer C", "author": "QA Lead", "date": "2026-09-21T20:22:57.036Z"},
+        {"field": "Attachment", "from": null, "to": "verification-photo.jpg", "author": "Developer C", "date": "2026-09-23T21:53:42.578Z"},
+        {"field": "resolution", "from": null, "to": "Done", "author": "Developer C", "date": "2026-09-23T21:53:47.294Z"},
+        {"field": "status", "from": "QA", "to": "Resolved", "author": "Developer C", "date": "2026-09-23T21:53:47.294Z"}
+      ]
+    },
+    {
+      "key": "PROJ-106",
+      "summary": "Implement ambient mode level options (Low/Medium/High/Super)",
+      "type": "Sub-task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-09-23T14:52:13.862-0700",
+      "changelog": [
+        {"field": "Attachment", "from": null, "to": "qa-screen-recording.mp4", "author": "QA Lead", "date": "2026-09-21T18:41:30.186Z"},
+        {"field": "assignee", "from": "QA Lead", "to": "Developer C", "author": "QA Lead", "date": "2026-09-21T18:41:42.814Z"},
+        {"field": "Attachment", "from": null, "to": "verification-photo.jpg", "author": "Developer C", "date": "2026-09-23T21:52:10.802Z"},
+        {"field": "status", "from": "QA", "to": "Resolved", "author": "Developer C", "date": "2026-09-23T21:52:13.862Z"},
+        {"field": "resolution", "from": null, "to": "Done", "author": "Developer C", "date": "2026-09-23T21:52:13.862Z"}
+      ]
+    },
+    {
+      "key": "PROJ-107",
+      "summary": "Implement device connecting state loading screen",
+      "type": "Sub-task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-09-23T14:50:30.011-0700",
+      "changelog": [
+        {"field": "Attachment", "from": null, "to": "qa-screenshot.png", "author": "QA Lead", "date": "2026-09-21T17:12:28.679Z"},
+        {"field": "assignee", "from": "QA Lead", "to": "Developer C", "author": "QA Lead", "date": "2026-09-21T17:12:39.806Z"},
+        {"field": "Attachment", "from": null, "to": "verification-photo.jpg", "author": "Developer C", "date": "2026-09-23T21:50:18.474Z"},
+        {"field": "resolution", "from": null, "to": "Done", "author": "Developer C", "date": "2026-09-23T21:50:30.011Z"},
+        {"field": "status", "from": "QA", "to": "Resolved", "author": "Developer C", "date": "2026-09-23T21:50:30.011Z"}
+      ]
+    },
+    {
+      "key": "PROJ-108",
+      "summary": "Implement firmware update completed confirmation screen",
+      "type": "Sub-task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-09-23T14:49:51.456-0700",
+      "changelog": [
+        {"field": "Attachment", "from": null, "to": "qa-screenshot.png", "author": "QA Lead", "date": "2026-09-21T16:57:49.576Z"},
+        {"field": "assignee", "from": "QA Lead", "to": "Developer C", "author": "QA Lead", "date": "2026-09-21T16:57:57.049Z"},
+        {"field": "Attachment", "from": null, "to": "verification-photo.jpg", "author": "Developer C", "date": "2026-09-23T21:49:47.152Z"},
+        {"field": "resolution", "from": null, "to": "Done", "author": "Developer C", "date": "2026-09-23T21:49:51.456Z"},
+        {"field": "status", "from": "QA", "to": "Resolved", "author": "Developer C", "date": "2026-09-23T21:49:51.456Z"}
+      ]
+    },
+    {
+      "key": "PROJ-109",
+      "summary": "App does not prompt for firmware update after triggering error during OTA startup",
+      "type": "Bug",
+      "status": "Open",
+      "priority": "Minor",
+      "assignee": null,
+      "updated": "2026-09-23T10:18:29.023-0700",
+      "changelog": [
+        {"field": "description", "from": null, "to": "(bug report with steps to reproduce)", "author": "QA Lead", "date": "2026-09-22T23:13:54.040Z"},
+        {"field": "Attachment", "from": null, "to": "screen-recording.mov", "author": "QA Lead", "date": "2026-09-22T23:13:54.361Z"},
+        {"field": "description", "from": "(initial report)", "to": "(added crash log link)", "author": "QA Lead", "date": "2026-09-22T23:14:23.674Z"},
+        {"field": "Version", "from": null, "to": "v27", "author": "QA Lead", "date": "2026-09-22T23:14:28.835Z"},
+        {"field": "Project(s)", "from": null, "to": "Product Alpha", "author": "QA Lead", "date": "2026-09-22T23:14:32.279Z"},
+        {"field": "OS", "from": null, "to": "iOS", "author": "QA Lead", "date": "2026-09-22T23:15:07.937Z"},
+        {"field": "description", "from": "(report v2)", "to": "(added reproduction frequency 3/6)", "author": "QA Lead", "date": "2026-09-23T17:10:59.391Z"},
+        {"field": "priority", "from": "Untriaged", "to": "Minor", "author": "Developer B", "date": "2026-09-23T17:18:29.023Z"}
+      ]
+    },
+    {
+      "key": "PROJ-110",
+      "summary": "QA regression testing for iOS build 147 - fixed issues and new features",
+      "type": "Task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA Lead",
+      "updated": "2026-09-23T10:06:00.152-0700",
+      "changelog": [
+        {"field": "status", "from": "In Progress", "to": "Closed", "author": "QA Lead", "date": "2026-09-23T17:06:00.152Z"},
+        {"field": "resolution", "from": null, "to": "Done", "author": "QA Lead", "date": "2026-09-23T17:06:00.152Z"}
+      ]
+    },
+    {
+      "key": "PROJ-111",
+      "summary": "Design 8-band EQ interface with preset values for new product variant",
+      "type": "Task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "Designer",
+      "updated": "2026-09-22T10:24:41.136-0700",
+      "changelog": [
+        {"field": "description", "from": "(initial EQ band layout)", "to": "(added preset values for all EQ profiles)", "author": "Designer", "date": "2026-09-21T22:30:17.662Z"},
+        {"field": "Attachment", "from": null, "to": "eq-preset-screenshots (12 files)", "author": "Designer", "date": "2026-09-21T22:37:11.045Z"},
+        {"field": "status", "from": "In Progress", "to": "Closed", "author": "Developer B", "date": "2026-09-22T17:24:41.136Z"},
+        {"field": "resolution", "from": null, "to": "Done", "author": "Developer B", "date": "2026-09-22T17:24:41.136Z"}
+      ]
+    },
+    {
+      "key": "PROJ-112",
+      "summary": "Implement ANC toggle with wind noise reduction switch in listening mode UI",
+      "type": "Sub-task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "Developer D",
+      "updated": "2026-09-22T09:06:22.941-0700",
+      "changelog": [
+        {"field": "Attachment", "from": null, "to": "qa-verification-screenshot.png", "author": "QA Lead", "date": "2026-09-21T22:30:02.019Z"},
+        {"field": "assignee", "from": "QA Lead", "to": "Developer D", "author": "QA Lead", "date": "2026-09-21T22:30:05.896Z"},
+        {"field": "Attachment", "from": null, "to": "test-evidence-screenshot.png", "author": "Developer D", "date": "2026-09-22T16:05:42.411Z"},
+        {"field": "status", "from": "QA", "to": "Closed", "author": "Developer D", "date": "2026-09-22T16:06:22.941Z"},
+        {"field": "resolution", "from": null, "to": "Done", "author": "Developer D", "date": "2026-09-22T16:06:22.941Z"}
+      ]
+    },
+    {
+      "key": "PROJ-113",
+      "summary": "Display firmware update available indicator on device status screen",
+      "type": "Sub-task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA Lead",
+      "updated": "2026-09-22T08:58:46.181-0700",
+      "changelog": [
+        {"field": "Attachment", "from": null, "to": "qa-verification-screenshot.png", "author": "QA Lead", "date": "2026-09-22T15:58:44.372Z"},
+        {"field": "status", "from": "QA", "to": "Closed", "author": "QA Lead", "date": "2026-09-22T15:58:46.181Z"},
+        {"field": "resolution", "from": null, "to": "Done", "author": "QA Lead", "date": "2026-09-22T15:58:46.181Z"}
+      ]
+    },
+    {
+      "key": "PROJ-114",
+      "summary": "Implement available devices list screen for companion app",
+      "type": "Sub-task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA Lead",
+      "updated": "2026-09-22T08:58:10.550-0700",
+      "changelog": [
+        {"field": "Attachment", "from": null, "to": "qa-verification-screenshot.png", "author": "QA Lead", "date": "2026-09-22T15:58:07.243Z"},
+        {"field": "status", "from": "QA", "to": "Closed", "author": "QA Lead", "date": "2026-09-22T15:58:10.550Z"},
+        {"field": "resolution", "from": null, "to": "Done", "author": "QA Lead", "date": "2026-09-22T15:58:10.550Z"}
+      ]
+    },
+    {
+      "key": "PROJ-115",
+      "summary": "Remove factory reset option from settings tab for product variant B",
+      "type": "Task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA Lead",
+      "updated": "2026-09-22T08:55:50.463-0700",
+      "changelog": [
+        {"field": "Attachment", "from": null, "to": "qa-verification-screenshots (2 files)", "author": "QA Lead", "date": "2026-09-22T15:55:48.563Z"},
+        {"field": "status", "from": "QA", "to": "Closed", "author": "QA Lead", "date": "2026-09-22T15:55:50.463Z"},
+        {"field": "resolution", "from": null, "to": "Done", "author": "QA Lead", "date": "2026-09-22T15:55:50.463Z"}
+      ]
+    },
+    {
+      "key": "PROJ-116",
+      "summary": "Cannot resume OTA firmware update after Bluetooth disconnection mid-transfer",
+      "type": "Bug",
+      "status": "Closed",
+      "priority": "Minor",
+      "assignee": "QA Lead",
+      "updated": "2026-09-22T08:48:04.963-0700",
+      "changelog": [
+        {"field": "status", "from": "QA", "to": "Closed", "author": "QA Lead", "date": "2026-09-22T15:48:04.963Z"},
+        {"field": "resolution", "from": null, "to": "Done", "author": "QA Lead", "date": "2026-09-22T15:48:04.963Z"}
+      ]
+    },
+    {
+      "key": "PROJ-117",
+      "summary": "Implement listening mode selector (ANC / Off / Ambient) UI component",
+      "type": "Sub-task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "Developer D",
+      "updated": "2026-09-21T14:28:10.407-0700",
+      "changelog": [
+        {"field": "Attachment", "from": null, "to": "qa-verification-screenshots (3 files)", "author": "Developer D", "date": "2026-09-21T21:27:57.358Z"},
+        {"field": "status", "from": "QA", "to": "Closed", "author": "Developer D", "date": "2026-09-21T21:28:10.407Z"},
+        {"field": "resolution", "from": null, "to": "Done", "author": "Developer D", "date": "2026-09-21T21:28:10.407Z"}
+      ]
+    },
+    {
+      "key": "PROJ-118",
+      "summary": "Add toString helper method to floating-point settings model",
+      "type": "Task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Developer B",
+      "updated": "2026-09-21T14:17:59.937-0700",
+      "changelog": [
+        {"field": "assignee", "from": null, "to": "Developer F", "author": "Developer F", "date": "2026-09-21T19:38:54.459Z"},
+        {"field": "Sprint", "from": "", "to": "Sprint 94", "author": "Developer F", "date": "2026-09-21T19:38:58.412Z"},
+        {"field": "Story Points", "from": null, "to": "1", "author": "Developer F", "date": "2026-09-21T19:39:01.836Z"},
+        {"field": "status", "from": "Open", "to": "In Progress", "author": "Developer F", "date": "2026-09-21T19:39:34.768Z"},
+        {"field": "status", "from": "In Progress", "to": "Code Review", "author": "Developer F", "date": "2026-09-21T19:39:36.222Z"},
+        {"field": "assignee", "from": "Developer F", "to": "Developer B", "author": "Developer F", "date": "2026-09-21T19:39:43.390Z"},
+        {"field": "priority", "from": "Untriaged", "to": "Normal", "author": "Developer B", "date": "2026-09-21T21:17:50.273Z"},
+        {"field": "Fix Version", "from": null, "to": "v27", "author": "Developer B", "date": "2026-09-21T21:17:56.316Z"},
+        {"field": "status", "from": "Code Review", "to": "Resolved", "author": "Developer B", "date": "2026-09-21T21:17:59.937Z"},
+        {"field": "resolution", "from": null, "to": "Done", "author": "Developer B", "date": "2026-09-21T21:17:59.937Z"}
+      ]
+    },
+    {
+      "key": "PROJ-119",
+      "summary": "Add new product model row to available devices list in companion app",
+      "type": "Sub-task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "Developer D",
+      "updated": "2026-09-21T14:00:44.479-0700",
+      "changelog": [
+        {"field": "Attachment", "from": null, "to": "qa-verification-screenshot.png", "author": "QA Lead", "date": "2026-09-21T16:53:37.947Z"},
+        {"field": "assignee", "from": "QA Lead", "to": "Developer D", "author": "QA Lead", "date": "2026-09-21T16:53:48.024Z"},
+        {"field": "Attachment", "from": null, "to": "test-evidence-screenshot.png", "author": "Developer D", "date": "2026-09-21T21:00:27.420Z"},
+        {"field": "status", "from": "QA", "to": "Closed", "author": "Developer D", "date": "2026-09-21T21:00:44.479Z"},
+        {"field": "resolution", "from": null, "to": "Done", "author": "Developer D", "date": "2026-09-21T21:00:44.479Z"}
+      ]
+    },
+    {
+      "key": "PROJ-120",
+      "summary": "Implement firmware version display page in companion app settings",
+      "type": "Sub-task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "Developer D",
+      "updated": "2026-09-21T13:07:00.233-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-121",
+      "summary": "Implement firmware update progress screen for connected devices",
+      "type": "Sub-task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "Developer D",
+      "updated": "2026-09-21T12:13:51.813-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-122",
+      "summary": "QA regression testing for Android build - fixed issues and new features",
+      "type": "Task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "updated": "2026-09-21T09:35:48.271-0700",
+      "changelog": []
+    }
+  ]
+}
