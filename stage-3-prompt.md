@@ -34,3 +34,5 @@ Format the summary using this exact structure:
 
 Keep the summary concise, actionable, and focused on the most important information.
 </constraints>
+
+{{jira_data}}
