@@ -1,317 +1,2943 @@
 {
-  "period": "2026-09-21 to 2026-09-25",
+  "period": "2026-10-05 to 2026-10-09",
+  "activity_level": "Busy",
   "issues": [
     {
       "key": "PROJ-101",
-      "summary": "Mobile app crashes on latest OS when compiled with latest IDE version",
-      "type": "Bug",
-      "status": "In Progress",
+      "summary": "Implement microphone tooltip section UI",
+      "type": "Sub-task",
+      "status": "Code Review",
       "priority": "Normal",
       "assignee": "Developer A",
-      "updated": "2026-09-25T10:23:15.714-0700",
+      "product": "Product K",
+      "updated": "2026-10-09T17:25:52.768-0700",
       "changelog": [
-        {"field": "priority", "from": "Untriaged", "to": "Normal", "author": "Developer B", "date": "2026-09-25T17:23:15.714Z"}
+        {
+          "field": "IssueParentAssociation",
+          "from": null,
+          "to": "PROJ-109",
+          "author": "Developer Lead",
+          "date": "2026-10-08T18:44:05.988Z"
+        },
+        {
+          "field": "description",
+          "from": null,
+          "to": "(description updated)",
+          "author": "Developer Lead",
+          "date": "2026-10-08T18:45:32.034Z"
+        },
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screenshot.png",
+          "author": "Developer Lead",
+          "date": "2026-10-08T18:45:32.195Z"
+        },
+        {
+          "field": "assignee",
+          "from": null,
+          "to": "Developer A",
+          "author": "Developer Lead",
+          "date": "2026-10-08T18:45:49.588Z"
+        },
+        {
+          "field": "description",
+          "from": "(previous description)",
+          "to": "(description updated)",
+          "author": "Developer Lead",
+          "date": "2026-10-08T18:45:51.729Z"
+        },
+        {
+          "field": "status",
+          "from": "Open",
+          "to": "In Progress",
+          "author": "Developer A",
+          "date": "2026-10-08T21:48:51.799Z"
+        },
+        {
+          "field": "priority",
+          "from": "Untriaged",
+          "to": "Normal",
+          "author": "Developer Lead",
+          "date": "2026-10-09T14:32:29.664Z"
+        },
+        {
+          "field": "status",
+          "from": "In Progress",
+          "to": "Code Review",
+          "author": "Developer A",
+          "date": "2026-10-10T00:25:52.768Z"
+        }
       ]
     },
     {
       "key": "PROJ-102",
-      "summary": "OTA firmware download shows progress rollback during upgrade",
+      "summary": "App gets stuck when Bluetooth is deactivated",
       "type": "Bug",
-      "status": "QA",
-      "priority": "Minor",
-      "assignee": "QA Lead",
-      "updated": "2026-09-25T10:09:02.218-0700",
+      "status": "Open",
+      "priority": "Normal",
+      "assignee": "Developer Lead",
+      "product": "Product H",
+      "updated": "2026-10-09T10:27:53.268-0700",
       "changelog": [
-        {"field": "assignee", "from": "Developer C", "to": "QA Lead", "author": "Developer C", "date": "2026-09-25T17:09:02.218Z"}
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screen-recording.mp4",
+          "author": "QA Lead",
+          "date": "2026-10-09T16:35:57.114Z"
+        },
+        {
+          "field": "assignee",
+          "from": "QA Lead",
+          "to": "Developer Lead",
+          "author": "Developer Lead",
+          "date": "2026-10-09T17:27:53.268Z"
+        }
       ]
     },
     {
       "key": "PROJ-103",
-      "summary": "Save and persist custom EQ preset names on connected devices",
-      "type": "Story",
+      "summary": "Crash report: device disconnects while fetching BLE services",
+      "type": "Bug",
       "status": "Open",
-      "priority": "Normal",
+      "priority": "Critical",
       "assignee": null,
-      "updated": "2026-09-24T10:34:07.744-0700",
+      "product": "Product I",
+      "updated": "2026-10-09T10:18:44.926-0700",
       "changelog": [
-        {"field": "labels", "from": "", "to": "Feature", "author": "PM", "date": "2026-09-24T17:34:07.744Z"}
+        {
+          "field": "description",
+          "from": null,
+          "to": "(description updated)",
+          "author": "QA A",
+          "date": "2026-10-09T16:24:54.232Z"
+        },
+        {
+          "field": "priority",
+          "from": "Untriaged",
+          "to": "Critical",
+          "author": "Developer Lead",
+          "date": "2026-10-09T17:18:44.926Z"
+        }
       ]
     },
     {
       "key": "PROJ-104",
-      "summary": "Retry dialog shown indefinitely on app restart after connection error",
+      "summary": "Crash report: duplicate key exception during BLE device scan",
       "type": "Bug",
       "status": "Open",
-      "priority": "Normal",
+      "priority": "Critical",
       "assignee": null,
-      "updated": "2026-09-24T10:19:12.890-0700",
+      "product": "None",
+      "updated": "2026-10-09T10:18:41.133-0700",
       "changelog": [
-        {"field": "summary", "from": "Retry dialog shown on product variant A app restart", "to": "Retry dialog shown on product variant B app restart", "author": "Developer C", "date": "2026-09-23T22:23:02.907Z"},
-        {"field": "priority", "from": "Untriaged", "to": "Normal", "author": "Developer B", "date": "2026-09-24T17:19:12.890Z"}
+        {
+          "field": "description",
+          "from": null,
+          "to": "(description updated)",
+          "author": "QA A",
+          "date": "2026-10-09T16:19:43.441Z"
+        },
+        {
+          "field": "description",
+          "from": "(previous description)",
+          "to": "(description updated)",
+          "author": "QA A",
+          "date": "2026-10-09T16:20:22.275Z"
+        },
+        {
+          "field": "description",
+          "from": "(previous description)",
+          "to": "(description updated)",
+          "author": "QA A",
+          "date": "2026-10-09T16:26:18.51Z"
+        },
+        {
+          "field": "priority",
+          "from": "Untriaged",
+          "to": "Critical",
+          "author": "Developer Lead",
+          "date": "2026-10-09T17:18:41.133Z"
+        }
       ]
     },
     {
       "key": "PROJ-105",
-      "summary": "Implement listening mode off state with noise reduction disabled",
-      "type": "Sub-task",
-      "status": "Resolved",
-      "priority": "Normal",
-      "assignee": "Developer C",
-      "updated": "2026-09-23T14:53:47.294-0700",
+      "summary": "Device connection lost at 50% of firmware update on a specific Android phone",
+      "type": "Bug",
+      "status": "Open",
+      "priority": "Blocker",
+      "assignee": "Developer Lead",
+      "product": "Product J",
+      "updated": "2026-10-09T07:35:59.742-0700",
       "changelog": [
-        {"field": "Attachment", "from": null, "to": "qa-screenshot.png", "author": "QA Lead", "date": "2026-09-21T20:21:09.930Z"},
-        {"field": "assignee", "from": "QA Lead", "to": "Developer C", "author": "QA Lead", "date": "2026-09-21T20:22:57.036Z"},
-        {"field": "Attachment", "from": null, "to": "verification-photo.jpg", "author": "Developer C", "date": "2026-09-23T21:53:42.578Z"},
-        {"field": "resolution", "from": null, "to": "Done", "author": "Developer C", "date": "2026-09-23T21:53:47.294Z"},
-        {"field": "status", "from": "QA", "to": "Resolved", "author": "Developer C", "date": "2026-09-23T21:53:47.294Z"}
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "photo.jpg",
+          "author": "QA Lead",
+          "date": "2026-10-06T18:25:32.256Z"
+        },
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "photo.jpg",
+          "author": "QA Lead",
+          "date": "2026-10-06T18:25:32.256Z"
+        },
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screen-recording.mp4",
+          "author": "QA Lead",
+          "date": "2026-10-06T18:25:32.256Z"
+        },
+        {
+          "field": "status",
+          "from": "In Progress",
+          "to": "Open",
+          "author": "QA Lead",
+          "date": "2026-10-06T18:25:33.525Z"
+        },
+        {
+          "field": "assignee",
+          "from": "QA Lead",
+          "to": "Developer Lead",
+          "author": "Developer Lead",
+          "date": "2026-10-09T14:35:59.742Z"
+        }
       ]
     },
     {
       "key": "PROJ-106",
-      "summary": "Implement ambient mode level options (Low/Medium/High/Super)",
-      "type": "Sub-task",
+      "summary": "Design mic mute toggle with help popup for the physical button",
+      "type": "Task",
       "status": "Resolved",
       "priority": "Normal",
-      "assignee": "Developer C",
-      "updated": "2026-09-23T14:52:13.862-0700",
+      "assignee": "Designer A",
+      "product": "Product K",
+      "updated": "2026-10-09T07:33:48.374-0700",
       "changelog": [
-        {"field": "Attachment", "from": null, "to": "qa-screen-recording.mp4", "author": "QA Lead", "date": "2026-09-21T18:41:30.186Z"},
-        {"field": "assignee", "from": "QA Lead", "to": "Developer C", "author": "QA Lead", "date": "2026-09-21T18:41:42.814Z"},
-        {"field": "Attachment", "from": null, "to": "verification-photo.jpg", "author": "Developer C", "date": "2026-09-23T21:52:10.802Z"},
-        {"field": "status", "from": "QA", "to": "Resolved", "author": "Developer C", "date": "2026-09-23T21:52:13.862Z"},
-        {"field": "resolution", "from": null, "to": "Done", "author": "Developer C", "date": "2026-09-23T21:52:13.862Z"}
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screenshot.png",
+          "author": "Designer A",
+          "date": "2026-10-05T17:33:54.45Z"
+        },
+        {
+          "field": "status",
+          "from": "In Progress",
+          "to": "Code Review",
+          "author": "Designer A",
+          "date": "2026-10-05T17:54:26.278Z"
+        },
+        {
+          "field": "IssueParentAssociation",
+          "from": null,
+          "to": "PROJ-201",
+          "author": "Designer A",
+          "date": "2026-10-06T21:18:43.064Z"
+        },
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screenshot.png",
+          "author": "Designer A",
+          "date": "2026-10-07T22:00:24.701Z"
+        },
+        {
+          "field": "status",
+          "from": "Code Review",
+          "to": "In Progress",
+          "author": "Designer A",
+          "date": "2026-10-08T17:58:46.589Z"
+        },
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screenshot.png",
+          "author": "Designer A",
+          "date": "2026-10-08T17:58:51.362Z"
+        },
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screenshot.png",
+          "author": "Designer A",
+          "date": "2026-10-08T17:58:51.362Z"
+        },
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screenshot.png",
+          "author": "Designer A",
+          "date": "2026-10-08T17:58:51.362Z"
+        },
+        {
+          "field": "status",
+          "from": "In Progress",
+          "to": "Resolved",
+          "author": "Designer A",
+          "date": "2026-10-09T14:33:48.374Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "Designer A",
+          "date": "2026-10-09T14:33:48.374Z"
+        }
       ]
     },
     {
       "key": "PROJ-107",
-      "summary": "Implement device connecting state loading screen",
+      "summary": "Implement microphone section with mic mute control UI",
       "type": "Sub-task",
-      "status": "Resolved",
+      "status": "Code Review",
       "priority": "Normal",
-      "assignee": "Developer C",
-      "updated": "2026-09-23T14:50:30.011-0700",
+      "assignee": "Developer A",
+      "product": "Product K",
+      "updated": "2026-10-08T14:48:50.171-0700",
       "changelog": [
-        {"field": "Attachment", "from": null, "to": "qa-screenshot.png", "author": "QA Lead", "date": "2026-09-21T17:12:28.679Z"},
-        {"field": "assignee", "from": "QA Lead", "to": "Developer C", "author": "QA Lead", "date": "2026-09-21T17:12:39.806Z"},
-        {"field": "Attachment", "from": null, "to": "verification-photo.jpg", "author": "Developer C", "date": "2026-09-23T21:50:18.474Z"},
-        {"field": "resolution", "from": null, "to": "Done", "author": "Developer C", "date": "2026-09-23T21:50:30.011Z"},
-        {"field": "status", "from": "QA", "to": "Resolved", "author": "Developer C", "date": "2026-09-23T21:50:30.011Z"}
+        {
+          "field": "IssueParentAssociation",
+          "from": null,
+          "to": "PROJ-109",
+          "author": "Developer Lead",
+          "date": "2026-10-08T18:24:49.271Z"
+        },
+        {
+          "field": "assignee",
+          "from": null,
+          "to": "Developer A",
+          "author": "Developer Lead",
+          "date": "2026-10-08T18:34:52.509Z"
+        },
+        {
+          "field": "priority",
+          "from": "Untriaged",
+          "to": "Normal",
+          "author": "Developer Lead",
+          "date": "2026-10-08T18:34:56.429Z"
+        },
+        {
+          "field": "status",
+          "from": "Open",
+          "to": "In Progress",
+          "author": "Developer A",
+          "date": "2026-10-08T18:43:27.21Z"
+        },
+        {
+          "field": "status",
+          "from": "In Progress",
+          "to": "Code Review",
+          "author": "Developer A",
+          "date": "2026-10-08T21:48:50.171Z"
+        }
       ]
     },
     {
       "key": "PROJ-108",
-      "summary": "Implement firmware update completed confirmation screen",
-      "type": "Sub-task",
-      "status": "Resolved",
-      "priority": "Normal",
-      "assignee": "Developer C",
-      "updated": "2026-09-23T14:49:51.456-0700",
+      "summary": "EQ preset and wearing sensor toggle selections do not stay active",
+      "type": "Task",
+      "status": "Closed",
+      "priority": "Untriaged",
+      "assignee": null,
+      "product": "Product K",
+      "updated": "2026-10-08T12:17:27.290-0700",
       "changelog": [
-        {"field": "Attachment", "from": null, "to": "qa-screenshot.png", "author": "QA Lead", "date": "2026-09-21T16:57:49.576Z"},
-        {"field": "assignee", "from": "QA Lead", "to": "Developer C", "author": "QA Lead", "date": "2026-09-21T16:57:57.049Z"},
-        {"field": "Attachment", "from": null, "to": "verification-photo.jpg", "author": "Developer C", "date": "2026-09-23T21:49:47.152Z"},
-        {"field": "resolution", "from": null, "to": "Done", "author": "Developer C", "date": "2026-09-23T21:49:51.456Z"},
-        {"field": "status", "from": "QA", "to": "Resolved", "author": "Developer C", "date": "2026-09-23T21:49:51.456Z"}
+        {
+          "field": "status",
+          "from": "Open",
+          "to": "Closed",
+          "author": "QA C",
+          "date": "2026-10-08T19:16:39.642Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA C",
+          "date": "2026-10-08T19:16:39.642Z"
+        },
+        {
+          "field": "resolution",
+          "from": "Done",
+          "to": "Duplicate",
+          "author": "QA C",
+          "date": "2026-10-08T19:16:43.414Z"
+        }
       ]
     },
     {
       "key": "PROJ-109",
-      "summary": "App does not prompt for firmware update after triggering error during OTA startup",
-      "type": "Bug",
+      "summary": "Microphone feature",
+      "type": "Story",
       "status": "Open",
-      "priority": "Minor",
+      "priority": "Normal",
       "assignee": null,
-      "updated": "2026-09-23T10:18:29.023-0700",
+      "product": "Product K",
+      "updated": "2026-10-08T11:35:02.906-0700",
       "changelog": [
-        {"field": "description", "from": null, "to": "(bug report with steps to reproduce)", "author": "QA Lead", "date": "2026-09-22T23:13:54.040Z"},
-        {"field": "Attachment", "from": null, "to": "screen-recording.mov", "author": "QA Lead", "date": "2026-09-22T23:13:54.361Z"},
-        {"field": "description", "from": "(initial report)", "to": "(added crash log link)", "author": "QA Lead", "date": "2026-09-22T23:14:23.674Z"},
-        {"field": "Version", "from": null, "to": "v27", "author": "QA Lead", "date": "2026-09-22T23:14:28.835Z"},
-        {"field": "Project(s)", "from": null, "to": "Product Alpha", "author": "QA Lead", "date": "2026-09-22T23:14:32.279Z"},
-        {"field": "OS", "from": null, "to": "iOS", "author": "QA Lead", "date": "2026-09-22T23:15:07.937Z"},
-        {"field": "description", "from": "(report v2)", "to": "(added reproduction frequency 3/6)", "author": "QA Lead", "date": "2026-09-23T17:10:59.391Z"},
-        {"field": "priority", "from": "Untriaged", "to": "Minor", "author": "Developer B", "date": "2026-09-23T17:18:29.023Z"}
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screenshot.png",
+          "author": "Developer Lead",
+          "date": "2026-10-08T18:11:19.332Z"
+        },
+        {
+          "field": "description",
+          "from": null,
+          "to": "(description updated)",
+          "author": "Developer Lead",
+          "date": "2026-10-08T18:24:14.583Z"
+        },
+        {
+          "field": "priority",
+          "from": "Untriaged",
+          "to": "Normal",
+          "author": "Developer Lead",
+          "date": "2026-10-08T18:24:59.218Z"
+        },
+        {
+          "field": "Sprint",
+          "from": "",
+          "to": "Sprint 94",
+          "author": "Developer Lead",
+          "date": "2026-10-08T18:35:02.906Z"
+        }
       ]
     },
     {
       "key": "PROJ-110",
-      "summary": "QA regression testing for iOS build 147 - fixed issues and new features",
-      "type": "Task",
-      "status": "Closed",
-      "priority": "Normal",
-      "assignee": "QA Lead",
-      "updated": "2026-09-23T10:06:00.152-0700",
+      "summary": "Implement microphone mute state management",
+      "type": "Sub-task",
+      "status": "Open",
+      "priority": "Untriaged",
+      "assignee": null,
+      "product": "Product K",
+      "updated": "2026-10-08T11:24:52.535-0700",
       "changelog": [
-        {"field": "status", "from": "In Progress", "to": "Closed", "author": "QA Lead", "date": "2026-09-23T17:06:00.152Z"},
-        {"field": "resolution", "from": null, "to": "Done", "author": "QA Lead", "date": "2026-09-23T17:06:00.152Z"}
+        {
+          "field": "IssueParentAssociation",
+          "from": null,
+          "to": "PROJ-109",
+          "author": "Developer Lead",
+          "date": "2026-10-08T18:24:52.447Z"
+        }
       ]
     },
     {
       "key": "PROJ-111",
-      "summary": "Design 8-band EQ interface with preset values for new product variant",
-      "type": "Task",
-      "status": "Closed",
-      "priority": "Normal",
-      "assignee": "Designer",
-      "updated": "2026-09-22T10:24:41.136-0700",
+      "summary": "Implement microphone mute core setting",
+      "type": "Sub-task",
+      "status": "Open",
+      "priority": "Untriaged",
+      "assignee": null,
+      "product": "Product K",
+      "updated": "2026-10-08T11:24:51.569-0700",
       "changelog": [
-        {"field": "description", "from": "(initial EQ band layout)", "to": "(added preset values for all EQ profiles)", "author": "Designer", "date": "2026-09-21T22:30:17.662Z"},
-        {"field": "Attachment", "from": null, "to": "eq-preset-screenshots (12 files)", "author": "Designer", "date": "2026-09-21T22:37:11.045Z"},
-        {"field": "status", "from": "In Progress", "to": "Closed", "author": "Developer B", "date": "2026-09-22T17:24:41.136Z"},
-        {"field": "resolution", "from": null, "to": "Done", "author": "Developer B", "date": "2026-09-22T17:24:41.136Z"}
+        {
+          "field": "IssueParentAssociation",
+          "from": null,
+          "to": "PROJ-109",
+          "author": "Developer Lead",
+          "date": "2026-10-08T18:24:51.448Z"
+        }
       ]
     },
     {
       "key": "PROJ-112",
-      "summary": "Implement ANC toggle with wind noise reduction switch in listening mode UI",
-      "type": "Sub-task",
-      "status": "Closed",
+      "summary": "Update ad-hoc provisioning profile with new test devices",
+      "type": "Story",
+      "status": "In Progress",
       "priority": "Normal",
-      "assignee": "Developer D",
-      "updated": "2026-09-22T09:06:22.941-0700",
+      "assignee": "DevOps A",
+      "product": "None",
+      "updated": "2026-10-08T11:02:51.286-0700",
       "changelog": [
-        {"field": "Attachment", "from": null, "to": "qa-verification-screenshot.png", "author": "QA Lead", "date": "2026-09-21T22:30:02.019Z"},
-        {"field": "assignee", "from": "QA Lead", "to": "Developer D", "author": "QA Lead", "date": "2026-09-21T22:30:05.896Z"},
-        {"field": "Attachment", "from": null, "to": "test-evidence-screenshot.png", "author": "Developer D", "date": "2026-09-22T16:05:42.411Z"},
-        {"field": "status", "from": "QA", "to": "Closed", "author": "Developer D", "date": "2026-09-22T16:06:22.941Z"},
-        {"field": "resolution", "from": null, "to": "Done", "author": "Developer D", "date": "2026-09-22T16:06:22.941Z"}
+        {
+          "field": "Sprint",
+          "from": "",
+          "to": "Sprint 94",
+          "author": "DevOps A",
+          "date": "2026-10-08T18:02:45.723Z"
+        },
+        {
+          "field": "status",
+          "from": "Open",
+          "to": "In Progress",
+          "author": "DevOps A",
+          "date": "2026-10-08T18:02:51.286Z"
+        }
       ]
     },
     {
       "key": "PROJ-113",
-      "summary": "Display firmware update available indicator on device status screen",
-      "type": "Sub-task",
-      "status": "Closed",
+      "summary": "Improve tap selection on custom EQ presets UI",
+      "type": "Task",
+      "status": "Resolved",
       "priority": "Normal",
-      "assignee": "QA Lead",
-      "updated": "2026-09-22T08:58:46.181-0700",
+      "assignee": "Developer Lead",
+      "product": "Product K",
+      "updated": "2026-10-08T09:48:12.108-0700",
       "changelog": [
-        {"field": "Attachment", "from": null, "to": "qa-verification-screenshot.png", "author": "QA Lead", "date": "2026-09-22T15:58:44.372Z"},
-        {"field": "status", "from": "QA", "to": "Closed", "author": "QA Lead", "date": "2026-09-22T15:58:46.181Z"},
-        {"field": "resolution", "from": null, "to": "Done", "author": "QA Lead", "date": "2026-09-22T15:58:46.181Z"}
+        {
+          "field": "description",
+          "from": null,
+          "to": "(description updated)",
+          "author": "Developer A",
+          "date": "2026-10-07T23:19:51.616Z"
+        },
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screen-recording.mp4",
+          "author": "Developer A",
+          "date": "2026-10-07T23:19:51.77Z"
+        },
+        {
+          "field": "assignee",
+          "from": null,
+          "to": "Developer A",
+          "author": "Developer A",
+          "date": "2026-10-08T14:34:10.086Z"
+        },
+        {
+          "field": "Sprint",
+          "from": "",
+          "to": "Sprint 94",
+          "author": "Developer A",
+          "date": "2026-10-08T14:34:15.869Z"
+        },
+        {
+          "field": "status",
+          "from": "Open",
+          "to": "In Progress",
+          "author": "Developer A",
+          "date": "2026-10-08T14:35:29.308Z"
+        },
+        {
+          "field": "status",
+          "from": "In Progress",
+          "to": "Code Review",
+          "author": "Developer A",
+          "date": "2026-10-08T14:35:33.256Z"
+        },
+        {
+          "field": "Story Points",
+          "from": null,
+          "to": "1",
+          "author": "Developer A",
+          "date": "2026-10-08T16:12:00.788Z"
+        },
+        {
+          "field": "status",
+          "from": "Code Review",
+          "to": "In Progress",
+          "author": "Developer Lead",
+          "date": "2026-10-08T16:37:18.417Z"
+        },
+        {
+          "field": "assignee",
+          "from": "Developer A",
+          "to": "Developer Lead",
+          "author": "Developer Lead",
+          "date": "2026-10-08T16:37:20.492Z"
+        },
+        {
+          "field": "priority",
+          "from": "Untriaged",
+          "to": "Normal",
+          "author": "Developer Lead",
+          "date": "2026-10-08T16:47:58.157Z"
+        },
+        {
+          "field": "Fix Version",
+          "from": null,
+          "to": "P27",
+          "author": "Developer Lead",
+          "date": "2026-10-08T16:48:04.984Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "Developer Lead",
+          "date": "2026-10-08T16:48:12.108Z"
+        },
+        {
+          "field": "status",
+          "from": "In Progress",
+          "to": "Resolved",
+          "author": "Developer Lead",
+          "date": "2026-10-08T16:48:12.108Z"
+        }
       ]
     },
     {
       "key": "PROJ-114",
-      "summary": "Implement available devices list screen for companion app",
+      "summary": "Trigger locate sound for the selected earbud",
       "type": "Sub-task",
-      "status": "Closed",
+      "status": "Resolved",
       "priority": "Normal",
-      "assignee": "QA Lead",
-      "updated": "2026-09-22T08:58:10.550-0700",
+      "assignee": "Developer Lead",
+      "product": "Product K",
+      "updated": "2026-10-08T09:36:44.495-0700",
       "changelog": [
-        {"field": "Attachment", "from": null, "to": "qa-verification-screenshot.png", "author": "QA Lead", "date": "2026-09-22T15:58:07.243Z"},
-        {"field": "status", "from": "QA", "to": "Closed", "author": "QA Lead", "date": "2026-09-22T15:58:10.550Z"},
-        {"field": "resolution", "from": null, "to": "Done", "author": "QA Lead", "date": "2026-09-22T15:58:10.550Z"}
+        {
+          "field": "assignee",
+          "from": null,
+          "to": "Developer A",
+          "author": "Developer Lead",
+          "date": "2026-10-05T13:36:36.813Z"
+        },
+        {
+          "field": "assignee",
+          "from": "Developer A",
+          "to": null,
+          "author": "Developer Lead",
+          "date": "2026-10-05T13:44:55.422Z"
+        },
+        {
+          "field": "assignee",
+          "from": null,
+          "to": "Developer A",
+          "author": "Developer Lead",
+          "date": "2026-10-06T14:33:45.83Z"
+        },
+        {
+          "field": "status",
+          "from": "Open",
+          "to": "In Progress",
+          "author": "Developer A",
+          "date": "2026-10-06T17:01:37.129Z"
+        },
+        {
+          "field": "status",
+          "from": "In Progress",
+          "to": "Code Review",
+          "author": "Developer A",
+          "date": "2026-10-07T14:54:00.26Z"
+        },
+        {
+          "field": "assignee",
+          "from": "Developer A",
+          "to": "Developer Lead",
+          "author": "Developer A",
+          "date": "2026-10-07T14:58:02.896Z"
+        },
+        {
+          "field": "status",
+          "from": "Code Review",
+          "to": "Resolved",
+          "author": "Developer Lead",
+          "date": "2026-10-08T16:36:44.495Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "Developer Lead",
+          "date": "2026-10-08T16:36:44.495Z"
+        }
       ]
     },
     {
       "key": "PROJ-115",
-      "summary": "Remove factory reset option from settings tab for product variant B",
-      "type": "Task",
+      "summary": "Implement custom EQ presets section on playback tab",
+      "type": "Sub-task",
       "status": "Closed",
       "priority": "Normal",
       "assignee": "QA Lead",
-      "updated": "2026-09-22T08:55:50.463-0700",
+      "product": "Product K",
+      "updated": "2026-10-08T09:34:17.183-0700",
       "changelog": [
-        {"field": "Attachment", "from": null, "to": "qa-verification-screenshots (2 files)", "author": "QA Lead", "date": "2026-09-22T15:55:48.563Z"},
-        {"field": "status", "from": "QA", "to": "Closed", "author": "QA Lead", "date": "2026-09-22T15:55:50.463Z"},
-        {"field": "resolution", "from": null, "to": "Done", "author": "QA Lead", "date": "2026-09-22T15:55:50.463Z"}
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA Lead",
+          "date": "2026-10-08T16:34:17.183Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA Lead",
+          "date": "2026-10-08T16:34:17.183Z"
+        }
       ]
     },
     {
       "key": "PROJ-116",
-      "summary": "Cannot resume OTA firmware update after Bluetooth disconnection mid-transfer",
-      "type": "Bug",
-      "status": "Closed",
-      "priority": "Minor",
-      "assignee": "QA Lead",
-      "updated": "2026-09-22T08:48:04.963-0700",
+      "summary": "Implement find-earbuds playback state management",
+      "type": "Sub-task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Developer Lead",
+      "product": "Product K",
+      "updated": "2026-10-08T09:29:16.300-0700",
       "changelog": [
-        {"field": "status", "from": "QA", "to": "Closed", "author": "QA Lead", "date": "2026-09-22T15:48:04.963Z"},
-        {"field": "resolution", "from": null, "to": "Done", "author": "QA Lead", "date": "2026-09-22T15:48:04.963Z"}
+        {
+          "field": "assignee",
+          "from": null,
+          "to": "Developer A",
+          "author": "Developer Lead",
+          "date": "2026-10-05T13:36:41.067Z"
+        },
+        {
+          "field": "assignee",
+          "from": "Developer A",
+          "to": null,
+          "author": "Developer Lead",
+          "date": "2026-10-05T13:44:53.666Z"
+        },
+        {
+          "field": "assignee",
+          "from": null,
+          "to": "Developer A",
+          "author": "Developer Lead",
+          "date": "2026-10-06T14:33:48.762Z"
+        },
+        {
+          "field": "status",
+          "from": "Open",
+          "to": "In Progress",
+          "author": "Developer A",
+          "date": "2026-10-06T17:01:35.368Z"
+        },
+        {
+          "field": "status",
+          "from": "In Progress",
+          "to": "Code Review",
+          "author": "Developer A",
+          "date": "2026-10-07T14:53:59.211Z"
+        },
+        {
+          "field": "assignee",
+          "from": "Developer A",
+          "to": "Developer Lead",
+          "author": "Developer A",
+          "date": "2026-10-07T14:58:00.257Z"
+        },
+        {
+          "field": "status",
+          "from": "Code Review",
+          "to": "In Progress",
+          "author": "Developer Lead",
+          "date": "2026-10-07T23:34:38.53Z"
+        },
+        {
+          "field": "Fix Version",
+          "from": null,
+          "to": "P27",
+          "author": "Developer Lead",
+          "date": "2026-10-08T16:29:10.835Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "Developer Lead",
+          "date": "2026-10-08T16:29:16.3Z"
+        },
+        {
+          "field": "status",
+          "from": "In Progress",
+          "to": "Resolved",
+          "author": "Developer Lead",
+          "date": "2026-10-08T16:29:16.3Z"
+        }
       ]
     },
     {
       "key": "PROJ-117",
-      "summary": "Implement listening mode selector (ANC / Off / Ambient) UI component",
+      "summary": "Implement find-earbuds core settings",
       "type": "Sub-task",
-      "status": "Closed",
+      "status": "Resolved",
       "priority": "Normal",
-      "assignee": "Developer D",
-      "updated": "2026-09-21T14:28:10.407-0700",
+      "assignee": "Developer Lead",
+      "product": "Product K",
+      "updated": "2026-10-08T07:47:41.012-0700",
       "changelog": [
-        {"field": "Attachment", "from": null, "to": "qa-verification-screenshots (3 files)", "author": "Developer D", "date": "2026-09-21T21:27:57.358Z"},
-        {"field": "status", "from": "QA", "to": "Closed", "author": "Developer D", "date": "2026-09-21T21:28:10.407Z"},
-        {"field": "resolution", "from": null, "to": "Done", "author": "Developer D", "date": "2026-09-21T21:28:10.407Z"}
+        {
+          "field": "IssueParentAssociation",
+          "from": null,
+          "to": "PROJ-202",
+          "author": "Developer Lead",
+          "date": "2026-10-05T18:28:42.386Z"
+        },
+        {
+          "field": "priority",
+          "from": "Untriaged",
+          "to": "Normal",
+          "author": "Developer Lead",
+          "date": "2026-10-05T18:28:49.689Z"
+        },
+        {
+          "field": "assignee",
+          "from": null,
+          "to": "Developer A",
+          "author": "Developer Lead",
+          "date": "2026-10-05T18:28:53.796Z"
+        },
+        {
+          "field": "status",
+          "from": "Open",
+          "to": "In Progress",
+          "author": "Developer A",
+          "date": "2026-10-05T18:31:34.738Z"
+        },
+        {
+          "field": "status",
+          "from": "In Progress",
+          "to": "Code Review",
+          "author": "Developer Lead",
+          "date": "2026-10-06T14:33:11.335Z"
+        },
+        {
+          "field": "assignee",
+          "from": "Developer A",
+          "to": "Developer Lead",
+          "author": "Developer A",
+          "date": "2026-10-07T14:57:44.876Z"
+        },
+        {
+          "field": "status",
+          "from": "Code Review",
+          "to": "In Progress",
+          "author": "Developer Lead",
+          "date": "2026-10-07T23:34:34.423Z"
+        },
+        {
+          "field": "Fix Version",
+          "from": null,
+          "to": "P27",
+          "author": "Developer Lead",
+          "date": "2026-10-08T14:47:36.562Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "Developer Lead",
+          "date": "2026-10-08T14:47:41.012Z"
+        },
+        {
+          "field": "status",
+          "from": "In Progress",
+          "to": "Resolved",
+          "author": "Developer Lead",
+          "date": "2026-10-08T14:47:41.012Z"
+        }
       ]
     },
     {
       "key": "PROJ-118",
-      "summary": "Add toString helper method to floating-point settings model",
-      "type": "Task",
+      "summary": "Implement find-earbuds device command",
+      "type": "Sub-task",
       "status": "Resolved",
       "priority": "Normal",
-      "assignee": "Developer B",
-      "updated": "2026-09-21T14:17:59.937-0700",
+      "assignee": "Developer Lead",
+      "product": "Product K",
+      "updated": "2026-10-08T07:26:01.745-0700",
       "changelog": [
-        {"field": "assignee", "from": null, "to": "Developer F", "author": "Developer F", "date": "2026-09-21T19:38:54.459Z"},
-        {"field": "Sprint", "from": "", "to": "Sprint 94", "author": "Developer F", "date": "2026-09-21T19:38:58.412Z"},
-        {"field": "Story Points", "from": null, "to": "1", "author": "Developer F", "date": "2026-09-21T19:39:01.836Z"},
-        {"field": "status", "from": "Open", "to": "In Progress", "author": "Developer F", "date": "2026-09-21T19:39:34.768Z"},
-        {"field": "status", "from": "In Progress", "to": "Code Review", "author": "Developer F", "date": "2026-09-21T19:39:36.222Z"},
-        {"field": "assignee", "from": "Developer F", "to": "Developer B", "author": "Developer F", "date": "2026-09-21T19:39:43.390Z"},
-        {"field": "priority", "from": "Untriaged", "to": "Normal", "author": "Developer B", "date": "2026-09-21T21:17:50.273Z"},
-        {"field": "Fix Version", "from": null, "to": "v27", "author": "Developer B", "date": "2026-09-21T21:17:56.316Z"},
-        {"field": "status", "from": "Code Review", "to": "Resolved", "author": "Developer B", "date": "2026-09-21T21:17:59.937Z"},
-        {"field": "resolution", "from": null, "to": "Done", "author": "Developer B", "date": "2026-09-21T21:17:59.937Z"}
+        {
+          "field": "IssueParentAssociation",
+          "from": null,
+          "to": "PROJ-202",
+          "author": "Developer Lead",
+          "date": "2026-10-05T13:37:01.19Z"
+        },
+        {
+          "field": "description",
+          "from": null,
+          "to": "(description updated)",
+          "author": "Developer Lead",
+          "date": "2026-10-05T13:44:21.688Z"
+        },
+        {
+          "field": "assignee",
+          "from": null,
+          "to": "Developer A",
+          "author": "Developer Lead",
+          "date": "2026-10-05T13:44:25.999Z"
+        },
+        {
+          "field": "priority",
+          "from": "Untriaged",
+          "to": "Normal",
+          "author": "Developer Lead",
+          "date": "2026-10-05T13:44:28.76Z"
+        },
+        {
+          "field": "assignee",
+          "from": "Developer A",
+          "to": null,
+          "author": "Developer Lead",
+          "date": "2026-10-05T13:44:51.646Z"
+        },
+        {
+          "field": "assignee",
+          "from": null,
+          "to": "Developer A",
+          "author": "Developer Lead",
+          "date": "2026-10-05T13:48:35.706Z"
+        },
+        {
+          "field": "status",
+          "from": "Open",
+          "to": "In Progress",
+          "author": "Developer A",
+          "date": "2026-10-05T16:05:08.73Z"
+        },
+        {
+          "field": "status",
+          "from": "In Progress",
+          "to": "Code Review",
+          "author": "Developer A",
+          "date": "2026-10-05T18:19:30.53Z"
+        },
+        {
+          "field": "Story Points",
+          "from": null,
+          "to": "1",
+          "author": "Developer A",
+          "date": "2026-10-05T18:36:41.022Z"
+        },
+        {
+          "field": "assignee",
+          "from": "Developer A",
+          "to": "Developer Lead",
+          "author": "Developer A",
+          "date": "2026-10-07T14:57:50.66Z"
+        },
+        {
+          "field": "status",
+          "from": "Code Review",
+          "to": "In Progress",
+          "author": "Developer Lead",
+          "date": "2026-10-07T23:34:36.398Z"
+        },
+        {
+          "field": "Fix Version",
+          "from": null,
+          "to": "P27",
+          "author": "Developer Lead",
+          "date": "2026-10-08T14:25:55.769Z"
+        },
+        {
+          "field": "status",
+          "from": "In Progress",
+          "to": "Resolved",
+          "author": "Developer Lead",
+          "date": "2026-10-08T14:26:01.745Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "Developer Lead",
+          "date": "2026-10-08T14:26:01.745Z"
+        }
       ]
     },
     {
       "key": "PROJ-119",
-      "summary": "Add new product model row to available devices list in companion app",
-      "type": "Sub-task",
+      "summary": "OTA firmware download shows progress rollback during upgrade",
+      "type": "Bug",
       "status": "Closed",
-      "priority": "Normal",
-      "assignee": "Developer D",
-      "updated": "2026-09-21T14:00:44.479-0700",
+      "priority": "Minor",
+      "assignee": "QA A",
+      "product": "None",
+      "updated": "2026-10-07T17:32:08.147-0700",
       "changelog": [
-        {"field": "Attachment", "from": null, "to": "qa-verification-screenshot.png", "author": "QA Lead", "date": "2026-09-21T16:53:37.947Z"},
-        {"field": "assignee", "from": "QA Lead", "to": "Developer D", "author": "QA Lead", "date": "2026-09-21T16:53:48.024Z"},
-        {"field": "Attachment", "from": null, "to": "test-evidence-screenshot.png", "author": "Developer D", "date": "2026-09-21T21:00:27.420Z"},
-        {"field": "status", "from": "QA", "to": "Closed", "author": "Developer D", "date": "2026-09-21T21:00:44.479Z"},
-        {"field": "resolution", "from": null, "to": "Done", "author": "Developer D", "date": "2026-09-21T21:00:44.479Z"}
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA A",
+          "date": "2026-10-08T00:32:08.147Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA A",
+          "date": "2026-10-08T00:32:08.147Z"
+        }
       ]
     },
     {
       "key": "PROJ-120",
-      "summary": "Implement firmware version display page in companion app settings",
-      "type": "Sub-task",
+      "summary": "Available devices feature",
+      "type": "Story",
       "status": "Closed",
       "priority": "Normal",
-      "assignee": "Developer D",
-      "updated": "2026-09-21T13:07:00.233-0700",
-      "changelog": []
+      "assignee": "QA A",
+      "product": "Product K",
+      "updated": "2026-10-07T17:29:46.485-0700",
+      "changelog": [
+        {
+          "field": "description",
+          "from": "(previous description)",
+          "to": "(description updated)",
+          "author": "Designer A",
+          "date": "2026-10-07T17:23:45.961Z"
+        },
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screenshot.png",
+          "author": "Designer A",
+          "date": "2026-10-07T17:23:46.208Z"
+        },
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "photo.jpg",
+          "author": "QA Lead",
+          "date": "2026-10-07T18:18:15.819Z"
+        },
+        {
+          "field": "assignee",
+          "from": "QA Lead",
+          "to": "QA A",
+          "author": "QA Lead",
+          "date": "2026-10-07T18:18:19.948Z"
+        },
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screen-recording.mp4",
+          "author": "QA A",
+          "date": "2026-10-08T00:29:35.287Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA A",
+          "date": "2026-10-08T00:29:46.485Z"
+        },
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA A",
+          "date": "2026-10-08T00:29:46.485Z"
+        }
+      ]
     },
     {
       "key": "PROJ-121",
-      "summary": "Implement firmware update progress screen for connected devices",
-      "type": "Sub-task",
+      "summary": "Mic monitoring feature",
+      "type": "Story",
       "status": "Closed",
       "priority": "Normal",
-      "assignee": "Developer D",
-      "updated": "2026-09-21T12:13:51.813-0700",
-      "changelog": []
+      "assignee": "QA A",
+      "product": "Product K",
+      "updated": "2026-10-07T17:23:29.943-0700",
+      "changelog": [
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screen-recording.mp4",
+          "author": "QA Lead",
+          "date": "2026-10-07T16:39:14.089Z"
+        },
+        {
+          "field": "assignee",
+          "from": "QA Lead",
+          "to": "QA A",
+          "author": "QA Lead",
+          "date": "2026-10-07T16:39:16.699Z"
+        },
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screen-recording.mp4",
+          "author": "QA A",
+          "date": "2026-10-08T00:23:18.059Z"
+        },
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA A",
+          "date": "2026-10-08T00:23:29.943Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA A",
+          "date": "2026-10-08T00:23:29.943Z"
+        }
+      ]
     },
     {
       "key": "PROJ-122",
-      "summary": "QA regression testing for Android build - fixed issues and new features",
+      "summary": "Implement custom EQ preset band editor UI",
+      "type": "Sub-task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA Lead",
+      "product": "Product K",
+      "updated": "2026-10-07T15:04:38.752-0700",
+      "changelog": [
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA Lead",
+          "date": "2026-10-07T22:04:38.752Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA Lead",
+          "date": "2026-10-07T22:04:38.752Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-123",
+      "summary": "Update custom EQ screen to the new 8-band layout",
       "type": "Task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA Lead",
+      "product": "Product K",
+      "updated": "2026-10-07T15:04:09.506-0700",
+      "changelog": [
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA Lead",
+          "date": "2026-10-07T22:04:09.506Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA Lead",
+          "date": "2026-10-07T22:04:09.506Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-124",
+      "summary": "Implement wearing sensor toggle on customize tab",
+      "type": "Sub-task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA A",
+      "product": "Product K",
+      "updated": "2026-10-07T13:30:43.972-0700",
+      "changelog": [
+        {
+          "field": "assignee",
+          "from": "QA Lead",
+          "to": "QA A",
+          "author": "QA Lead",
+          "date": "2026-10-07T16:22:01.161Z"
+        },
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA A",
+          "date": "2026-10-07T20:30:43.972Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA A",
+          "date": "2026-10-07T20:30:43.972Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-125",
+      "summary": "Prompt tones feature",
+      "type": "Story",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA A",
+      "product": "Product K",
+      "updated": "2026-10-07T13:29:31.593-0700",
+      "changelog": [
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "photo.jpg",
+          "author": "QA Lead",
+          "date": "2026-10-07T16:18:52.308Z"
+        },
+        {
+          "field": "assignee",
+          "from": "QA Lead",
+          "to": "QA A",
+          "author": "QA Lead",
+          "date": "2026-10-07T16:18:55.67Z"
+        },
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screen-recording.mp4",
+          "author": "QA A",
+          "date": "2026-10-07T20:29:27.871Z"
+        },
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA A",
+          "date": "2026-10-07T20:29:31.593Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA A",
+          "date": "2026-10-07T20:29:31.593Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-126",
+      "summary": "Wearing sensor function cannot be turned off",
+      "type": "Bug",
+      "status": "Open",
+      "priority": "Blocker",
+      "assignee": null,
+      "product": "Product K",
+      "updated": "2026-10-07T13:25:58.578-0700",
+      "changelog": [
+        {
+          "field": "priority",
+          "from": "Untriaged",
+          "to": "Blocker",
+          "author": "Developer Lead",
+          "date": "2026-10-07T17:20:20.86Z"
+        },
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screen-recording.mp4",
+          "author": "QA A",
+          "date": "2026-10-07T20:25:58.535Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-127",
+      "summary": "QA testing of new implementations for build 147",
+      "type": "Task",
+      "status": "Closed",
+      "priority": "Untriaged",
+      "assignee": "QA A",
+      "product": "Product K",
+      "updated": "2026-10-07T13:10:12.181-0700",
+      "changelog": [
+        {
+          "field": "status",
+          "from": "In Progress",
+          "to": "Closed",
+          "author": "QA A",
+          "date": "2026-10-07T20:10:12.181Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA A",
+          "date": "2026-10-07T20:10:12.181Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-128",
+      "summary": "Wearing sensor feature",
+      "type": "Story",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA A",
+      "product": "Product K",
+      "updated": "2026-10-07T13:08:04.491-0700",
+      "changelog": [
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "photo.jpg",
+          "author": "QA Lead",
+          "date": "2026-10-07T16:19:41.875Z"
+        },
+        {
+          "field": "assignee",
+          "from": "QA Lead",
+          "to": "QA A",
+          "author": "QA Lead",
+          "date": "2026-10-07T16:19:47.203Z"
+        },
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screenshot.png",
+          "author": "QA A",
+          "date": "2026-10-07T20:07:30.801Z"
+        },
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA A",
+          "date": "2026-10-07T20:08:04.491Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA A",
+          "date": "2026-10-07T20:08:04.491Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-129",
+      "summary": "Update OTA transmitter icon to match the physical hardware",
+      "type": "Story",
+      "status": "Open",
+      "priority": "Minor",
+      "assignee": null,
+      "product": "Product K",
+      "updated": "2026-10-07T11:37:59.422-0700",
+      "changelog": []
+    },
+    {
+      "key": "PROJ-130",
+      "summary": "Mic monitoring toggle has no effect on audio output",
+      "type": "Bug",
+      "status": "Open",
+      "priority": "Blocker",
+      "assignee": "QA A",
+      "product": "Product K",
+      "updated": "2026-10-07T11:27:10.931-0700",
+      "changelog": [
+        {
+          "field": "summary",
+          "from": "No change in audio perceived when toggling mic monitoring",
+          "to": "Mic monitoring toggle has no effect on audio output",
+          "author": "QA A",
+          "date": "2026-10-07T16:56:27.584Z"
+        },
+        {
+          "field": "description",
+          "from": null,
+          "to": "(description updated)",
+          "author": "QA A",
+          "date": "2026-10-07T17:04:12.869Z"
+        },
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screenshot.png",
+          "author": "QA A",
+          "date": "2026-10-07T17:04:13.035Z"
+        },
+        {
+          "field": "Version",
+          "from": null,
+          "to": "P27",
+          "author": "QA A",
+          "date": "2026-10-07T17:05:14.331Z"
+        },
+        {
+          "field": "OS",
+          "from": null,
+          "to": "Android,iOS",
+          "author": "QA A",
+          "date": "2026-10-07T17:05:22.639Z"
+        },
+        {
+          "field": "priority",
+          "from": "Untriaged",
+          "to": "Blocker",
+          "author": "Developer Lead",
+          "date": "2026-10-07T17:17:52.714Z"
+        },
+        {
+          "field": "assignee",
+          "from": null,
+          "to": "QA A",
+          "author": "Developer Lead",
+          "date": "2026-10-07T17:24:40.624Z"
+        },
+        {
+          "field": "Sprint",
+          "from": "",
+          "to": "Sprint 94",
+          "author": "Developer Lead",
+          "date": "2026-10-07T17:24:43.572Z"
+        },
+        {
+          "field": "description",
+          "from": "(previous description)",
+          "to": "(description updated)",
+          "author": "QA A",
+          "date": "2026-10-07T18:19:31.266Z"
+        },
+        {
+          "field": "description",
+          "from": "(previous description)",
+          "to": "(description updated)",
+          "author": "QA A",
+          "date": "2026-10-07T18:26:21.098Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-131",
+      "summary": "App crashes when tapping the factory reset option",
+      "type": "Bug",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": null,
+      "product": "Product K",
+      "updated": "2026-10-07T10:35:59.283-0700",
+      "changelog": [
+        {
+          "field": "assignee",
+          "from": null,
+          "to": "Director",
+          "author": "Director",
+          "date": "2026-10-06T21:57:39.23Z"
+        },
+        {
+          "field": "Sprint",
+          "from": "",
+          "to": "Sprint 94",
+          "author": "Director",
+          "date": "2026-10-06T21:57:43.781Z"
+        },
+        {
+          "field": "status",
+          "from": "Open",
+          "to": "In Progress",
+          "author": "Director",
+          "date": "2026-10-06T21:59:00.659Z"
+        },
+        {
+          "field": "assignee",
+          "from": "Director",
+          "to": null,
+          "author": "Developer Lead",
+          "date": "2026-10-07T17:35:26.971Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "Developer Lead",
+          "date": "2026-10-07T17:35:59.283Z"
+        },
+        {
+          "field": "status",
+          "from": "In Progress",
+          "to": "Closed",
+          "author": "Developer Lead",
+          "date": "2026-10-07T17:35:59.283Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-132",
+      "summary": "EQ preset cannot be selected",
+      "type": "Bug",
+      "status": "Open",
+      "priority": "Blocker",
+      "assignee": null,
+      "product": "Product K",
+      "updated": "2026-10-07T10:21:09.936-0700",
+      "changelog": [
+        {
+          "field": "priority",
+          "from": "Untriaged",
+          "to": "Blocker",
+          "author": "Developer Lead",
+          "date": "2026-10-07T17:21:09.936Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-133",
+      "summary": "Selecting listening modes in the app does not trigger voice prompts",
+      "type": "Bug",
+      "status": "Open",
+      "priority": "Blocker",
+      "assignee": null,
+      "product": "Product K",
+      "updated": "2026-10-07T10:19:20.805-0700",
+      "changelog": [
+        {
+          "field": "description",
+          "from": "(previous description)",
+          "to": "(description updated)",
+          "author": "QA Lead",
+          "date": "2026-10-07T16:04:20.121Z"
+        },
+        {
+          "field": "description",
+          "from": "(previous description)",
+          "to": "(description updated)",
+          "author": "QA Lead",
+          "date": "2026-10-07T16:10:56.658Z"
+        },
+        {
+          "field": "priority",
+          "from": "Untriaged",
+          "to": "Blocker",
+          "author": "Developer Lead",
+          "date": "2026-10-07T17:19:20.805Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-134",
+      "summary": "Add game/chat mix support to PC SKU",
+      "type": "Task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "Director",
+      "product": "Product E",
+      "updated": "2026-10-07T10:06:37.266-0700",
+      "changelog": [
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "Director",
+          "date": "2026-10-07T17:06:37.266Z"
+        },
+        {
+          "field": "status",
+          "from": "Open",
+          "to": "Closed",
+          "author": "Director",
+          "date": "2026-10-07T17:06:37.266Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-135",
+      "summary": "Chat boost value out of sync between mobile and desktop apps",
+      "type": "Bug",
+      "status": "Open",
+      "priority": "Blocker",
+      "assignee": "Director",
+      "product": "Product E",
+      "updated": "2026-10-07T10:03:35.155-0700",
+      "changelog": [
+        {
+          "field": "Sprint",
+          "from": "Sprint 94",
+          "to": "",
+          "author": "Director",
+          "date": "2026-10-06T17:50:50.187Z"
+        },
+        {
+          "field": "Sprint",
+          "from": "",
+          "to": "Sprint 94",
+          "author": "Director",
+          "date": "2026-10-07T17:03:35.155Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-136",
+      "summary": "Game/chat mix value out of sync between mobile and desktop apps",
+      "type": "Bug",
+      "status": "Open",
+      "priority": "Blocker",
+      "assignee": "Director",
+      "product": "Product E",
+      "updated": "2026-10-07T10:03:05.831-0700",
+      "changelog": [
+        {
+          "field": "Sprint",
+          "from": "Sprint 94",
+          "to": "",
+          "author": "Director",
+          "date": "2026-10-06T17:50:59.596Z"
+        },
+        {
+          "field": "Sprint",
+          "from": "",
+          "to": "Sprint 94",
+          "author": "Director",
+          "date": "2026-10-07T17:03:05.831Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-137",
+      "summary": "Device connecting flow feature",
+      "type": "Story",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA Lead",
+      "product": "Product K",
+      "updated": "2026-10-07T09:15:47.898-0700",
+      "changelog": [
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screen-recording.mp4",
+          "author": "QA Lead",
+          "date": "2026-10-07T16:15:44.593Z"
+        },
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA Lead",
+          "date": "2026-10-07T16:15:47.898Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA Lead",
+          "date": "2026-10-07T16:15:47.898Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-138",
+      "summary": "Update OTA transmitter icon to match the physical hardware",
+      "type": "Task",
+      "status": "Code Review",
+      "priority": "Minor",
+      "assignee": "Developer Lead",
+      "product": "Product F, Product G",
+      "updated": "2026-10-07T07:32:28.506-0700",
+      "changelog": [
+        {
+          "field": "status",
+          "from": "Open",
+          "to": "In Progress",
+          "author": "Developer C",
+          "date": "2026-10-05T14:40:50.309Z"
+        },
+        {
+          "field": "status",
+          "from": "In Progress",
+          "to": "Code Review",
+          "author": "Developer C",
+          "date": "2026-10-06T22:10:33.548Z"
+        },
+        {
+          "field": "assignee",
+          "from": "Developer C",
+          "to": "Developer Lead",
+          "author": "Developer Lead",
+          "date": "2026-10-07T14:32:28.506Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-139",
+      "summary": "Implement mic monitoring option on playback tab",
+      "type": "Sub-task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA Lead",
+      "product": "Product K",
+      "updated": "2026-10-06T14:36:09.916-0700",
+      "changelog": [
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA Lead",
+          "date": "2026-10-06T21:36:09.916Z"
+        },
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA Lead",
+          "date": "2026-10-06T21:36:09.916Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-140",
+      "summary": "Design available devices screen",
+      "type": "Story",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA Lead",
+      "product": "Product K",
+      "updated": "2026-10-06T14:35:27.301-0700",
+      "changelog": [
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "photo.jpg",
+          "author": "QA Lead",
+          "date": "2026-10-06T21:35:10.213Z"
+        },
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA Lead",
+          "date": "2026-10-06T21:35:27.301Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA Lead",
+          "date": "2026-10-06T21:35:27.301Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-141",
+      "summary": "Listening mode feature",
+      "type": "Story",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA Lead",
+      "product": "Product K",
+      "updated": "2026-10-06T14:33:22.889-0700",
+      "changelog": [
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA Lead",
+          "date": "2026-10-06T21:33:22.889Z"
+        },
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA Lead",
+          "date": "2026-10-06T21:33:22.889Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-142",
+      "summary": "Implement custom 10-band EQ presets state management",
+      "type": "Sub-task",
       "status": "Resolved",
       "priority": "Normal",
+      "assignee": "Developer Lead",
+      "product": "Product K",
+      "updated": "2026-10-06T14:22:12.505-0700",
+      "changelog": [
+        {
+          "field": "priority",
+          "from": "Untriaged",
+          "to": "Normal",
+          "author": "Developer Lead",
+          "date": "2026-10-05T22:31:19.372Z"
+        },
+        {
+          "field": "Fix Version",
+          "from": null,
+          "to": "P27",
+          "author": "Developer Lead",
+          "date": "2026-10-06T21:21:48.14Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "Developer Lead",
+          "date": "2026-10-06T21:22:12.505Z"
+        },
+        {
+          "field": "status",
+          "from": "In Progress",
+          "to": "Resolved",
+          "author": "Developer Lead",
+          "date": "2026-10-06T21:22:12.505Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-143",
+      "summary": "Implement 8-band EQ state management",
+      "type": "Sub-task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Developer Lead",
+      "product": "Product K",
+      "updated": "2026-10-06T14:22:06.944-0700",
+      "changelog": [
+        {
+          "field": "priority",
+          "from": "Untriaged",
+          "to": "Normal",
+          "author": "Developer Lead",
+          "date": "2026-10-05T22:31:37.956Z"
+        },
+        {
+          "field": "Fix Version",
+          "from": null,
+          "to": "P27",
+          "author": "Developer Lead",
+          "date": "2026-10-06T21:22:02.534Z"
+        },
+        {
+          "field": "status",
+          "from": "In Progress",
+          "to": "Resolved",
+          "author": "Developer Lead",
+          "date": "2026-10-06T21:22:06.944Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "Developer Lead",
+          "date": "2026-10-06T21:22:06.944Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-144",
+      "summary": "Basic EQ presets feature",
+      "type": "Story",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA Lead",
+      "product": "Product K",
+      "updated": "2026-10-06T13:33:09.801-0700",
+      "changelog": [
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "photo.jpg",
+          "author": "QA Lead",
+          "date": "2026-10-06T20:33:05.083Z"
+        },
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA Lead",
+          "date": "2026-10-06T20:33:09.801Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA Lead",
+          "date": "2026-10-06T20:33:09.801Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-145",
+      "summary": "Implement basic EQ presets section on playback tab",
+      "type": "Sub-task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA Lead",
+      "product": "Product K",
+      "updated": "2026-10-06T13:30:33.864-0700",
+      "changelog": [
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "photo.jpg",
+          "author": "QA Lead",
+          "date": "2026-10-06T20:30:31.276Z"
+        },
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA Lead",
+          "date": "2026-10-06T20:30:33.864Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA Lead",
+          "date": "2026-10-06T20:30:33.864Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-146",
+      "summary": "Implement prompt tone options section UI",
+      "type": "Sub-task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA Lead",
+      "product": "Product K",
+      "updated": "2026-10-06T13:26:20.279-0700",
+      "changelog": [
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "photo.jpg",
+          "author": "QA Lead",
+          "date": "2026-10-06T20:26:18.389Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA Lead",
+          "date": "2026-10-06T20:26:20.279Z"
+        },
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA Lead",
+          "date": "2026-10-06T20:26:20.279Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-147",
+      "summary": "Implement device connection failure screen",
+      "type": "Sub-task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA Lead",
+      "product": "Product K",
+      "updated": "2026-10-06T13:24:44.144-0700",
+      "changelog": [
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screen-recording.mp4",
+          "author": "QA Lead",
+          "date": "2026-10-06T20:24:40.113Z"
+        },
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA Lead",
+          "date": "2026-10-06T20:24:44.144Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA Lead",
+          "date": "2026-10-06T20:24:44.144Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-148",
+      "summary": "Implement device header component",
+      "type": "Task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA Lead",
+      "product": "Product K",
+      "updated": "2026-10-06T12:07:03.675-0700",
+      "changelog": [
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA Lead",
+          "date": "2026-10-06T19:07:03.675Z"
+        },
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA Lead",
+          "date": "2026-10-06T19:07:03.675Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-149",
+      "summary": "Home tabs feature",
+      "type": "Story",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA Lead",
+      "product": "Product K",
+      "updated": "2026-10-06T11:37:46.091-0700",
+      "changelog": [
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA Lead",
+          "date": "2026-10-06T18:37:46.091Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA Lead",
+          "date": "2026-10-06T18:37:46.091Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-150",
+      "summary": "Firmware update feature",
+      "type": "Story",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA Lead",
+      "product": "Product K",
+      "updated": "2026-10-06T11:34:34.370-0700",
+      "changelog": [
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA Lead",
+          "date": "2026-10-06T18:34:34.37Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA Lead",
+          "date": "2026-10-06T18:34:34.37Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-151",
+      "summary": "Settings tab feature",
+      "type": "Task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA Lead",
+      "product": "Product K",
+      "updated": "2026-10-06T11:33:58.894-0700",
+      "changelog": [
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA Lead",
+          "date": "2026-10-06T18:33:58.894Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA Lead",
+          "date": "2026-10-06T18:33:58.894Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-152",
+      "summary": "Unable to reconnect after Bluetooth disconnection (affects multiple products)",
+      "type": "Bug",
+      "status": "Open",
+      "priority": "Minor",
+      "assignee": null,
+      "product": "Multiple Products",
+      "updated": "2026-10-06T10:28:15.273-0700",
+      "changelog": [
+        {
+          "field": "assignee",
+          "from": null,
+          "to": "QA Lead",
+          "author": "Developer Lead",
+          "date": "2026-10-06T14:39:51.762Z"
+        },
+        {
+          "field": "status",
+          "from": "Open",
+          "to": "In Progress",
+          "author": "QA Lead",
+          "date": "2026-10-06T16:26:07.966Z"
+        },
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screen-recording.mp4",
+          "author": "QA Lead",
+          "date": "2026-10-06T17:01:05.917Z"
+        },
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screen-recording.mp4",
+          "author": "QA Lead",
+          "date": "2026-10-06T17:01:05.917Z"
+        },
+        {
+          "field": "assignee",
+          "from": "QA Lead",
+          "to": "Developer Lead",
+          "author": "Developer Lead",
+          "date": "2026-10-06T17:18:37.965Z"
+        },
+        {
+          "field": "assignee",
+          "from": "Developer Lead",
+          "to": null,
+          "author": "Developer Lead",
+          "date": "2026-10-06T17:18:40.758Z"
+        },
+        {
+          "field": "status",
+          "from": "In Progress",
+          "to": "Open",
+          "author": "Developer Lead",
+          "date": "2026-10-06T17:28:15.273Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-153",
+      "summary": "Remove audio section from support link",
+      "type": "Bug",
+      "status": "Blocked",
+      "priority": "Normal",
+      "assignee": "Director",
+      "product": "Product H",
+      "updated": "2026-10-06T10:25:30.977-0700",
+      "changelog": [
+        {
+          "field": "Sprint",
+          "from": "Sprint 94",
+          "to": "",
+          "author": "Director",
+          "date": "2026-10-06T17:24:49.633Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-154",
+      "summary": "Controller firmware wishlist for improved UX",
+      "type": "Epic",
+      "status": "Blocked",
+      "priority": "Normal",
+      "assignee": "Director",
+      "product": "None",
+      "updated": "2026-10-06T10:24:30.493-0700",
+      "changelog": [
+        {
+          "field": "Sprint",
+          "from": "Sprint 94",
+          "to": "",
+          "author": "Director",
+          "date": "2026-10-06T17:24:27.803Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-155",
+      "summary": "Add app connection and OTA support for a new device",
+      "type": "Story",
+      "status": "In Progress",
+      "priority": "Normal",
+      "assignee": "Director",
+      "product": "Product L",
+      "updated": "2026-10-06T10:23:58.315-0700",
+      "changelog": [
+        {
+          "field": "Sprint",
+          "from": "Sprint 94",
+          "to": "",
+          "author": "Director",
+          "date": "2026-10-06T17:19:19.374Z"
+        },
+        {
+          "field": "Fix Version",
+          "from": "P27",
+          "to": null,
+          "author": "Director",
+          "date": "2026-10-06T17:23:58.315Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-156",
+      "summary": "Missing translation for power controls label",
+      "type": "Bug",
+      "status": "Closed",
+      "priority": "Minor",
+      "assignee": "QA Lead",
+      "product": "Product E",
+      "updated": "2026-10-05T15:14:05.048-0700",
+      "changelog": [
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "photo.jpg",
+          "author": "QA Lead",
+          "date": "2026-10-05T22:14:02.151Z"
+        },
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "photo.jpg",
+          "author": "QA Lead",
+          "date": "2026-10-05T22:14:02.151Z"
+        },
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "photo.jpg",
+          "author": "QA Lead",
+          "date": "2026-10-05T22:14:02.151Z"
+        },
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "photo.jpg",
+          "author": "QA Lead",
+          "date": "2026-10-05T22:14:02.151Z"
+        },
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "photo.jpg",
+          "author": "QA Lead",
+          "date": "2026-10-05T22:14:02.151Z"
+        },
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "photo.jpg",
+          "author": "QA Lead",
+          "date": "2026-10-05T22:14:02.151Z"
+        },
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA Lead",
+          "date": "2026-10-05T22:14:05.048Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA Lead",
+          "date": "2026-10-05T22:14:05.048Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-157",
+      "summary": "Firmware version page feature",
+      "type": "Story",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA Lead",
+      "product": "Product K",
+      "updated": "2026-10-05T13:04:31.162-0700",
+      "changelog": [
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "photo.jpg",
+          "author": "QA Lead",
+          "date": "2026-10-05T20:04:27.85Z"
+        },
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "photo.jpg",
+          "author": "QA Lead",
+          "date": "2026-10-05T20:04:27.85Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA Lead",
+          "date": "2026-10-05T20:04:31.162Z"
+        },
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA Lead",
+          "date": "2026-10-05T20:04:31.162Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-158",
+      "summary": "Implement firmware version page core logic",
+      "type": "Sub-task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA Lead",
+      "product": "Product K",
+      "updated": "2026-10-05T12:49:00.256-0700",
+      "changelog": [
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "photo.jpg",
+          "author": "QA Lead",
+          "date": "2026-10-05T19:48:54.222Z"
+        },
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA Lead",
+          "date": "2026-10-05T19:49:00.256Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA Lead",
+          "date": "2026-10-05T19:49:00.256Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-159",
+      "summary": "Add basic product support to the companion app",
+      "type": "Sub-task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA Lead",
+      "product": "Product K",
+      "updated": "2026-10-05T12:40:35.931-0700",
+      "changelog": [
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA Lead",
+          "date": "2026-10-05T19:40:35.931Z"
+        },
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA Lead",
+          "date": "2026-10-05T19:40:35.931Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-160",
+      "summary": "Establish basic BLE connection to the device service",
+      "type": "Sub-task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA Lead",
+      "product": "Product K",
+      "updated": "2026-10-05T12:40:13.144-0700",
+      "changelog": [
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA Lead",
+          "date": "2026-10-05T19:40:13.144Z"
+        },
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA Lead",
+          "date": "2026-10-05T19:40:13.144Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-161",
+      "summary": "Implement firmware update error screen",
+      "type": "Sub-task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA Lead",
+      "product": "Product K",
+      "updated": "2026-10-05T12:39:15.999-0700",
+      "changelog": [
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA Lead",
+          "date": "2026-10-05T19:39:15.999Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA Lead",
+          "date": "2026-10-05T19:39:15.999Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-162",
+      "summary": "Add iOS task to perform OTA on earbuds",
+      "type": "Sub-task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA Lead",
+      "product": "Product K",
+      "updated": "2026-10-05T12:38:02.420-0700",
+      "changelog": [
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA Lead",
+          "date": "2026-10-05T19:38:02.42Z"
+        },
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA Lead",
+          "date": "2026-10-05T19:38:02.42Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-163",
+      "summary": "Add Android task to perform OTA on earbuds",
+      "type": "Sub-task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA Lead",
+      "product": "Product K",
+      "updated": "2026-10-05T12:37:37.982-0700",
+      "changelog": [
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA Lead",
+          "date": "2026-10-05T19:37:37.982Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA Lead",
+          "date": "2026-10-05T19:37:37.982Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-164",
+      "summary": "Add core support to update dongle firmware",
+      "type": "Sub-task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA Lead",
+      "product": "Product K",
+      "updated": "2026-10-05T12:37:14.526-0700",
+      "changelog": [
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA Lead",
+          "date": "2026-10-05T19:37:14.526Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA Lead",
+          "date": "2026-10-05T19:37:14.526Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-165",
+      "summary": "Add Android support to update dongle firmware",
+      "type": "Sub-task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA Lead",
+      "product": "Product K",
+      "updated": "2026-10-05T12:36:39.494-0700",
+      "changelog": [
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA Lead",
+          "date": "2026-10-05T19:36:39.494Z"
+        },
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA Lead",
+          "date": "2026-10-05T19:36:39.494Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-166",
+      "summary": "Add support to cancel firmware update",
+      "type": "Sub-task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA Lead",
+      "product": "Product K",
+      "updated": "2026-10-05T12:36:10.595-0700",
+      "changelog": [
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA Lead",
+          "date": "2026-10-05T19:36:10.595Z"
+        },
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA Lead",
+          "date": "2026-10-05T19:36:10.595Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-167",
+      "summary": "Implement game/chat mix balance slider",
+      "type": "Sub-task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA Lead",
+      "product": "Product K",
+      "updated": "2026-10-05T12:35:26.003-0700",
+      "changelog": [
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "photo.jpg",
+          "author": "QA Lead",
+          "date": "2026-10-05T19:34:58.392Z"
+        },
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "photo.jpg",
+          "author": "QA Lead",
+          "date": "2026-10-05T19:34:58.392Z"
+        },
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA Lead",
+          "date": "2026-10-05T19:35:26.003Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA Lead",
+          "date": "2026-10-05T19:35:26.003Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-168",
+      "summary": "Adjust listening mode control height",
+      "type": "Bug",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA Lead",
+      "product": "Product K",
+      "updated": "2026-10-05T12:27:07.790-0700",
+      "changelog": [
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screen-recording.mp4",
+          "author": "QA Lead",
+          "date": "2026-10-05T19:27:03.36Z"
+        },
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screen-recording.mp4",
+          "author": "QA Lead",
+          "date": "2026-10-05T19:27:03.36Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA Lead",
+          "date": "2026-10-05T19:27:07.79Z"
+        },
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA Lead",
+          "date": "2026-10-05T19:27:07.79Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-169",
+      "summary": "Ambient control options must use uppercase",
+      "type": "Bug",
+      "status": "Closed",
+      "priority": "Minor",
+      "assignee": "QA Lead",
+      "product": "Product K",
+      "updated": "2026-10-05T11:09:43.409-0700",
+      "changelog": [
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "photo.jpg",
+          "author": "QA Lead",
+          "date": "2026-10-05T18:09:40.281Z"
+        },
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "photo.jpg",
+          "author": "QA Lead",
+          "date": "2026-10-05T18:09:40.281Z"
+        },
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA Lead",
+          "date": "2026-10-05T18:09:43.409Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA Lead",
+          "date": "2026-10-05T18:09:43.409Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-170",
+      "summary": "OTA screen icons have wrong style and animation",
+      "type": "Bug",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA Lead",
+      "product": "None",
+      "updated": "2026-10-05T10:51:37.775-0700",
+      "changelog": [
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screen-recording.mp4",
+          "author": "QA Lead",
+          "date": "2026-10-05T17:51:27.141Z"
+        },
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screen-recording.mp4",
+          "author": "QA Lead",
+          "date": "2026-10-05T17:51:27.141Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA Lead",
+          "date": "2026-10-05T17:51:37.775Z"
+        },
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA Lead",
+          "date": "2026-10-05T17:51:37.775Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-171",
+      "summary": "Wrong device icon shown in spinner on retry",
+      "type": "Bug",
+      "status": "Closed",
+      "priority": "Minor",
+      "assignee": "QA Lead",
+      "product": "Product K",
+      "updated": "2026-10-05T10:42:14.961-0700",
+      "changelog": [
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screen-recording.mp4",
+          "author": "QA Lead",
+          "date": "2026-10-05T17:42:09.6Z"
+        },
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screen-recording.mp4",
+          "author": "QA Lead",
+          "date": "2026-10-05T17:42:09.6Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA Lead",
+          "date": "2026-10-05T17:42:14.961Z"
+        },
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA Lead",
+          "date": "2026-10-05T17:42:14.961Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-172",
+      "summary": "Release iOS and Android build 148",
+      "type": "Story",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "DevOps A",
+      "product": "None",
+      "updated": "2026-10-05T10:20:09.963-0700",
+      "changelog": [
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "Developer Lead",
+          "date": "2026-10-05T17:20:09.963Z"
+        },
+        {
+          "field": "status",
+          "from": "Open",
+          "to": "Resolved",
+          "author": "Developer Lead",
+          "date": "2026-10-05T17:20:09.963Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-173",
+      "summary": "Android app gets stuck on loading screen",
+      "type": "Bug",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA Lead",
+      "product": "Product K",
+      "updated": "2026-10-05T10:07:01.907-0700",
+      "changelog": [
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screen-recording.mp4",
+          "author": "QA Lead",
+          "date": "2026-10-05T17:06:58.074Z"
+        },
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA Lead",
+          "date": "2026-10-05T17:07:01.907Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA Lead",
+          "date": "2026-10-05T17:07:01.907Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-174",
+      "summary": "App crashes when WiFi is disconnected",
+      "type": "Bug",
+      "status": "Closed",
+      "priority": "Critical",
+      "assignee": "QA Lead",
+      "product": "Product E",
+      "updated": "2026-10-05T09:45:47.478-0700",
+      "changelog": [
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screen-recording.mp4",
+          "author": "QA Lead",
+          "date": "2026-10-05T16:45:41.905Z"
+        },
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screen-recording.mp4",
+          "author": "QA Lead",
+          "date": "2026-10-05T16:45:41.905Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA Lead",
+          "date": "2026-10-05T16:45:47.478Z"
+        },
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA Lead",
+          "date": "2026-10-05T16:45:47.478Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-175",
+      "summary": "Add module for saving custom EQ names on device",
+      "type": "Sub-task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Developer Lead",
+      "product": "Product K",
+      "updated": "2026-10-05T09:24:00.684-0700",
+      "changelog": [
+        {
+          "field": "Fix Version",
+          "from": null,
+          "to": "P27",
+          "author": "Developer Lead",
+          "date": "2026-10-05T16:23:55.198Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "Developer Lead",
+          "date": "2026-10-05T16:24:00.684Z"
+        },
+        {
+          "field": "status",
+          "from": "Code Review",
+          "to": "Resolved",
+          "author": "Developer Lead",
+          "date": "2026-10-05T16:24:00.684Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-176",
+      "summary": "App crashes when tapping cancel",
+      "type": "Bug",
+      "status": "Closed",
+      "priority": "Blocker",
+      "assignee": "QA Lead",
+      "product": "Product E",
+      "updated": "2026-10-05T09:20:31.737-0700",
+      "changelog": [
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screen-recording.mp4",
+          "author": "QA Lead",
+          "date": "2026-10-05T16:20:27.807Z"
+        },
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screen-recording.mp4",
+          "author": "QA Lead",
+          "date": "2026-10-05T16:20:27.807Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA Lead",
+          "date": "2026-10-05T16:20:31.737Z"
+        },
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Closed",
+          "author": "QA Lead",
+          "date": "2026-10-05T16:20:31.737Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-177",
+      "summary": "Crash report: duplicate key exception",
+      "type": "Bug",
+      "status": "Open",
+      "priority": "Untriaged",
       "assignee": "Developer C",
-      "updated": "2026-09-21T09:35:48.271-0700",
-      "changelog": []
+      "product": "None",
+      "updated": "2026-10-05T07:40:57.060-0700",
+      "changelog": [
+        {
+          "field": "status",
+          "from": "In Progress",
+          "to": "Open",
+          "author": "Developer C",
+          "date": "2026-10-05T14:40:57.06Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-178",
+      "summary": "Implement wind noise reduction logic",
+      "type": "Sub-task",
+      "status": "Open",
+      "priority": "Normal",
+      "assignee": "Developer C",
+      "product": "Product K",
+      "updated": "2026-10-05T07:40:55.305-0700",
+      "changelog": [
+        {
+          "field": "status",
+          "from": "In Progress",
+          "to": "Open",
+          "author": "Developer C",
+          "date": "2026-10-05T14:40:55.305Z"
+        }
+      ]
     }
   ]
 }

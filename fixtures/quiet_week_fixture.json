@@ -1,64 +1,361 @@
 {
-  "period": "2026-08-17 to 2026-08-21",
+  "period": "2026-08-24 to 2026-08-28",
+  "activity_level": "Quiet",
   "issues": [
     {
-      "key": "PROJ-201",
-      "summary": "Release mobile app pipeline for iOS and Android build v146",
+      "key": "PROJ-101",
+      "summary": "Prototype connectivity and OTA investigation",
       "type": "Story",
       "status": "Resolved",
-      "priority": "Untriaged",
-      "assignee": "Developer G",
-      "updated": "2026-08-19T10:27:02.260-0700",
+      "priority": "Normal",
+      "assignee": "Developer Lead",
+      "product": "Product K",
+      "updated": "2026-08-28T14:52:25.033-0700",
       "changelog": [
-        {"field": "Sprint", "from": "", "to": "Sprint 94", "author": "Developer G", "date": "2026-08-18T19:03:07.837Z"},
-        {"field": "status", "from": "Open", "to": "In Progress", "author": "Developer G", "date": "2026-08-18T19:03:12.556Z"},
-        {"field": "resolution", "from": null, "to": "Done", "author": "Developer B", "date": "2026-08-19T17:27:02.260Z"},
-        {"field": "status", "from": "In Progress", "to": "Resolved", "author": "Developer B", "date": "2026-08-19T17:27:02.260Z"}
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "Developer Lead",
+          "date": "2026-08-28T21:52:25.033Z"
+        },
+        {
+          "field": "status",
+          "from": "In Progress",
+          "to": "Resolved",
+          "author": "Developer Lead",
+          "date": "2026-08-28T21:52:25.033Z"
+        }
       ]
     },
     {
-      "key": "PROJ-202",
-      "summary": "Update build script to generate manifest file for new product variant",
-      "type": "Story",
-      "status": "Resolved",
-      "priority": "Untriaged",
-      "assignee": "Developer G",
-      "updated": "2026-08-19T10:26:59.780-0700",
-      "changelog": [
-        {"field": "Sprint", "from": "", "to": "Sprint 94", "author": "Developer G", "date": "2026-08-19T17:17:42.695Z"},
-        {"field": "status", "from": "Open", "to": "In Progress", "author": "Developer G", "date": "2026-08-19T17:17:47.171Z"},
-        {"field": "resolution", "from": null, "to": "Done", "author": "Developer B", "date": "2026-08-19T17:26:59.780Z"},
-        {"field": "status", "from": "In Progress", "to": "Resolved", "author": "Developer B", "date": "2026-08-19T17:26:59.780Z"}
-      ]
-    },
-    {
-      "key": "PROJ-203",
-      "summary": "Unable to establish Bluetooth connection to wireless controller accessory",
-      "type": "Bug",
-      "status": "Closed",
-      "priority": "Blocker",
-      "assignee": "QA Lead",
-      "updated": "2026-08-19T10:05:02.118-0700",
-      "changelog": [
-        {"field": "assignee", "from": "Developer B", "to": "Developer C", "author": "Developer C", "date": "2026-08-18T21:30:08.104Z"},
-        {"field": "Attachment", "from": null, "to": "diagnostic-photos (3 files)", "author": "Developer C", "date": "2026-08-18T21:31:36.395Z"},
-        {"field": "assignee", "from": "Developer C", "to": "QA Lead", "author": "Developer C", "date": "2026-08-18T21:31:38.276Z"},
-        {"field": "resolution", "from": null, "to": "Done", "author": "QA Lead", "date": "2026-08-19T17:05:02.118Z"},
-        {"field": "status", "from": "QA", "to": "Closed", "author": "QA Lead", "date": "2026-08-19T17:05:02.118Z"}
-      ]
-    },
-    {
-      "key": "PROJ-204",
-      "summary": "Implement firmware version display page in companion app",
+      "key": "PROJ-102",
+      "summary": "Replace placeholder image with final product render on available devices screen",
       "type": "Sub-task",
       "status": "Resolved",
       "priority": "Normal",
-      "assignee": "Developer B",
-      "updated": "2026-08-17T12:09:06.148-0700",
+      "assignee": "Designer A",
+      "product": "Product K",
+      "updated": "2026-08-28T14:39:19.657-0700",
       "changelog": [
-        {"field": "Fix Version", "from": null, "to": "v27", "author": "Developer B", "date": "2026-08-17T19:05:15.162Z"},
-        {"field": "resolution", "from": null, "to": "Done", "author": "Developer B", "date": "2026-08-17T19:09:06.148Z"},
-        {"field": "status", "from": "In Progress", "to": "Resolved", "author": "Developer B", "date": "2026-08-17T19:09:06.148Z"}
+        {
+          "field": "status",
+          "from": "Open",
+          "to": "Code Review",
+          "author": "Designer A",
+          "date": "2026-08-27T17:13:26.116Z"
+        },
+        {
+          "field": "status",
+          "from": "Code Review",
+          "to": "In Progress",
+          "author": "Designer A",
+          "date": "2026-08-27T17:13:27.961Z"
+        },
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screenshot.png",
+          "author": "Designer A",
+          "date": "2026-08-28T21:39:18.951Z"
+        },
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "product-render.svg",
+          "author": "Designer A",
+          "date": "2026-08-28T21:39:18.951Z"
+        },
+        {
+          "field": "Attachment",
+          "from": null,
+          "to": "screenshot.png",
+          "author": "Designer A",
+          "date": "2026-08-28T21:39:18.951Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "Designer A",
+          "date": "2026-08-28T21:39:19.657Z"
+        },
+        {
+          "field": "status",
+          "from": "In Progress",
+          "to": "Resolved",
+          "author": "Designer A",
+          "date": "2026-08-28T21:39:19.657Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-103",
+      "summary": "Add support to cancel firmware update on iOS",
+      "type": "Sub-task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Developer Lead",
+      "product": "Product K",
+      "updated": "2026-08-27T12:42:25.494-0700",
+      "changelog": [
+        {
+          "field": "Fix Version",
+          "from": null,
+          "to": "P27",
+          "author": "Developer Lead",
+          "date": "2026-08-27T19:42:03.398Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "Developer Lead",
+          "date": "2026-08-27T19:42:25.494Z"
+        },
+        {
+          "field": "status",
+          "from": "In Progress",
+          "to": "Resolved",
+          "author": "Developer Lead",
+          "date": "2026-08-27T19:42:25.494Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-104",
+      "summary": "Connection watchdog not working",
+      "type": "Bug",
+      "status": "Resolved",
+      "priority": "Blocker",
+      "assignee": "Developer Lead",
+      "product": "Product K",
+      "updated": "2026-08-27T11:25:45.949-0700",
+      "changelog": [
+        {
+          "field": "assignee",
+          "from": "Developer A",
+          "to": "Developer Lead",
+          "author": "Developer Lead",
+          "date": "2026-08-27T18:23:50.991Z"
+        },
+        {
+          "field": "status",
+          "from": "Code Review",
+          "to": "In Progress",
+          "author": "Developer Lead",
+          "date": "2026-08-27T18:24:02.493Z"
+        },
+        {
+          "field": "Fix Version",
+          "from": null,
+          "to": "P27",
+          "author": "Developer Lead",
+          "date": "2026-08-27T18:25:35.115Z"
+        },
+        {
+          "field": "status",
+          "from": "In Progress",
+          "to": "QA",
+          "author": "Developer Lead",
+          "date": "2026-08-27T18:25:37.834Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "Developer Lead",
+          "date": "2026-08-27T18:25:45.949Z"
+        },
+        {
+          "field": "status",
+          "from": "QA",
+          "to": "Resolved",
+          "author": "Developer Lead",
+          "date": "2026-08-27T18:25:45.949Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-105",
+      "summary": "Device connects even when Bluetooth is turned off",
+      "type": "Bug",
+      "status": "Open",
+      "priority": "Minor",
+      "assignee": null,
+      "product": "Product E",
+      "updated": "2026-08-27T07:45:07.447-0700",
+      "changelog": [
+        {
+          "field": "Sprint",
+          "from": "",
+          "to": "Sprint 94",
+          "author": "Developer Lead",
+          "date": "2026-08-27T14:45:07.447Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-106",
+      "summary": "QA test case creation for new product",
+      "type": "Task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "QA A",
+      "product": "Product K",
+      "updated": "2026-08-26T10:14:08.690-0700",
+      "changelog": [
+        {
+          "field": "status",
+          "from": "Open",
+          "to": "In Progress",
+          "author": "Director",
+          "date": "2026-08-24T17:42:30.927Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "QA A",
+          "date": "2026-08-26T17:14:08.69Z"
+        },
+        {
+          "field": "status",
+          "from": "In Progress",
+          "to": "Closed",
+          "author": "QA A",
+          "date": "2026-08-26T17:14:08.69Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-107",
+      "summary": "Design OTA firmware update screens",
+      "type": "Task",
+      "status": "Resolved",
+      "priority": "Untriaged",
+      "assignee": "Designer A",
+      "product": "Product K",
+      "updated": "2026-08-25T14:21:09.748-0700",
+      "changelog": [
+        {
+          "field": "resolution",
+          "from": "Done",
+          "to": null,
+          "author": "Designer A",
+          "date": "2026-08-25T21:20:20.072Z"
+        },
+        {
+          "field": "status",
+          "from": "Closed",
+          "to": "Open",
+          "author": "Designer A",
+          "date": "2026-08-25T21:20:20.072Z"
+        },
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "Designer A",
+          "date": "2026-08-25T21:21:09.748Z"
+        },
+        {
+          "field": "status",
+          "from": "Open",
+          "to": "Resolved",
+          "author": "Designer A",
+          "date": "2026-08-25T21:21:09.748Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-108",
+      "summary": "Refactor font styles in label UI component",
+      "type": "Task",
+      "status": "Code Review",
+      "priority": "Minor",
+      "assignee": "Developer C",
+      "product": "None",
+      "updated": "2026-08-25T10:03:14.011-0700",
+      "changelog": [
+        {
+          "field": "status",
+          "from": "In Progress",
+          "to": "Code Review",
+          "author": "Developer C",
+          "date": "2026-08-25T17:03:14.011Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-109",
+      "summary": "LED brightness slider not working when transmitter is not connected at first",
+      "type": "Bug",
+      "status": "Open",
+      "priority": "Critical",
+      "assignee": null,
+      "product": "None",
+      "updated": "2026-08-24T10:44:39.665-0700",
+      "changelog": [
+        {
+          "field": "assignee",
+          "from": "QA A",
+          "to": null,
+          "author": "Director",
+          "date": "2026-08-24T17:44:39.665Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-110",
+      "summary": "Add product images for a wired controller",
+      "type": "Task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "Designer A",
+      "product": "Product M",
+      "updated": "2026-08-24T10:41:22.137-0700",
+      "changelog": [
+        {
+          "field": "resolution",
+          "from": null,
+          "to": "Done",
+          "author": "Designer A",
+          "date": "2026-08-24T17:41:22.137Z"
+        },
+        {
+          "field": "status",
+          "from": "Code Review",
+          "to": "Closed",
+          "author": "Designer A",
+          "date": "2026-08-24T17:41:22.137Z"
+        }
+      ]
+    },
+    {
+      "key": "PROJ-111",
+      "summary": "App shows incorrect error message and gets stuck during OTA flow",
+      "type": "Bug",
+      "status": "Open",
+      "priority": "Minor",
+      "assignee": null,
+      "product": "Product E",
+      "updated": "2026-08-24T10:41:10.254-0700",
+      "changelog": [
+        {
+          "field": "priority",
+          "from": "Normal",
+          "to": "Minor",
+          "author": "Director",
+          "date": "2026-08-24T17:40:58.848Z"
+        },
+        {
+          "field": "assignee",
+          "from": "QA A",
+          "to": null,
+          "author": "Director",
+          "date": "2026-08-24T17:41:10.254Z"
+        }
       ]
     }
   ]
